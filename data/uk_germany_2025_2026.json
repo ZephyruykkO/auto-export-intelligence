@@ -1,0 +1,7142 @@
+[
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 9589,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 9171,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 18380,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 13203,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "May",
+    "registrations": 11202,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 12789,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 13592,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 11752,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 14424,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 13511,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 10498,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 5961,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 10996,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 11116,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 18036,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 13974,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "May",
+    "registrations": 12588,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 8537,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 10808,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 15408,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 9742,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "May",
+    "registrations": 11028,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 11577,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 11633,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 9220,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 14245,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 9621,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 9719,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 5589,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 9500,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 10247,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 14202,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 10251,
+    "market": "UK"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "May",
+    "registrations": 10184,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 7886,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 8135,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 15645,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 9973,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "May",
+    "registrations": 10483,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 10287,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 11500,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 8485,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 12816,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 11164,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 8230,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 5675,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 8467,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 10273,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 13921,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 11327,
+    "market": "UK"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "May",
+    "registrations": 10246,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 7243,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 9044,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 12896,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 9177,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "May",
+    "registrations": 8609,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 10557,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 8783,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 9314,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 14253,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 9568,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 8077,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4497,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 8987,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 8005,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 14387,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 10861,
+    "market": "UK"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "May",
+    "registrations": 10496,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 6601,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 6648,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 12352,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 8455,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "May",
+    "registrations": 9895,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 7990,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 7742,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 7893,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 12499,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 7434,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 7415,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4688,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 8746,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 6716,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 11339,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 7344,
+    "market": "UK"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "May",
+    "registrations": 9025,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 6206,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 6779,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 10657,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6800,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "May",
+    "registrations": 8347,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 8832,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 7095,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 6467,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 9844,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 8624,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6529,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 5024,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 6788,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 7283,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 12749,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 8660,
+    "market": "UK"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "May",
+    "registrations": 9435,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 5899,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 6916,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 9185,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6858,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "May",
+    "registrations": 6632,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 7136,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 8765,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 8032,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 10309,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 6702,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6016,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4032,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 6843,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 6312,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 12500,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6959,
+    "market": "UK"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "May",
+    "registrations": 7439,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 5567,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 7066,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 10291,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6302,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "May",
+    "registrations": 7656,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 6634,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 8430,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 5984,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 9663,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 7599,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 7106,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3458,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 7655,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 7260,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 10764,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 7141,
+    "market": "UK"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "May",
+    "registrations": 7687,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 5242,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 5925,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 9487,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6369,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "May",
+    "registrations": 6504,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 7673,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 6271,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 7069,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 8303,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 6499,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6482,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3280,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5767,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 5889,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 8800,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6665,
+    "market": "UK"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "May",
+    "registrations": 6267,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 4921,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 4811,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 8811,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6961,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "May",
+    "registrations": 7286,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 6224,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 6294,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 5412,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 8849,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 5784,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6453,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3842,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5981,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 6375,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 9923,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6148,
+    "market": "UK"
+  },
+  {
+    "brand": "Vauxhall",
+    "year": 2026,
+    "month": "May",
+    "registrations": 7157,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 4593,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 5121,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 7854,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5661,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 5706,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 5389,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 5975,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4831,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 7583,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 5641,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6017,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3507,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 6093,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4818,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 8950,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6520,
+    "market": "UK"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 5717,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 4272,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 5309,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 8574,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5178,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "May",
+    "registrations": 5420,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 6019,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 5328,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 5754,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 6863,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 5108,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 4991,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3246,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5591,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4459,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 9161,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4991,
+    "market": "UK"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "May",
+    "registrations": 5376,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 3942,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 4349,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 7910,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5573,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "May",
+    "registrations": 5729,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 5217,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 5974,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4718,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 7029,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 4638,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 4864,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 3188,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5467,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4004,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 8331,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4991,
+    "market": "UK"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "May",
+    "registrations": 5068,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 3364,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3662,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 6285,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 4415,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "May",
+    "registrations": 3820,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4678,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 4818,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4454,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 5118,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3561,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 4043,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2301,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 4238,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 3809,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 7265,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4390,
+    "market": "UK"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "May",
+    "registrations": 5140,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2976,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3055,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 5417,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 4246,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "May",
+    "registrations": 3907,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4563,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 3507,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 3603,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 5628,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3267,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 3700,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2077,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 3855,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 3372,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 5672,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4305,
+    "market": "UK"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3899,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2651,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3034,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4747,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2912,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "May",
+    "registrations": 3342,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4048,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 3167,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 3043,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 4629,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3125,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2974,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1837,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2844,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2955,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 4373,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 3400,
+    "market": "UK"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3068,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2332,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2807,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3642,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 3032,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2908,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 2731,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2881,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 3071,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3757,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2920,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2964,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1829,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 3189,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2696,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 4123,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2993,
+    "market": "UK"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3201,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2005,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2045,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4180,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2225,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2642,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 3077,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2807,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2425,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3726,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2162,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2122,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1329,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2713,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2454,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3456,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2454,
+    "market": "UK"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2670,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1877,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1871,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3265,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2216,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2430,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 2214,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2411,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2092,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3371,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2153,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2043,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1442,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2226,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2004,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3081,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2237,
+    "market": "UK"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2623,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1682,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2068,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3080,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1885,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2312,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 2595,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2030,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2138,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3314,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2269,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1674,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1065,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2137,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1664,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3024,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1960,
+    "market": "UK"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2534,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1488,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1633,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 2508,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2021,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1695,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1896,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1712,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1871,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2901,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2116,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1914,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1086,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1624,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1931,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2541,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1974,
+    "market": "UK"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2233,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1358,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1420,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 2190,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1841,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1662,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1590,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2035,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1565,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2431,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1714,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1653,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 853,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1511,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1375,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2869,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1955,
+    "market": "UK"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1980,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1230,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1259,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1945,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1354,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1723,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1685,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1418,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1481,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2368,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1619,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1472,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 774,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1540,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1210,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2452,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1606,
+    "market": "UK"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1869,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1100,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1272,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 2246,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1428,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1589,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1515,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1517,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1501,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1776,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1354,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1318,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 713,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1514,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1263,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2254,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1580,
+    "market": "UK"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1675,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 970,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1141,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1553,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1243,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1127,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1127,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1426,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1059,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1660,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1340,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1089,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 672,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1104,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1122,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1607,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1289,
+    "market": "UK"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1224,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 776,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 886,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1507,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1021,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1122,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1160,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1152,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 829,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1306,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 946,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 987,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 610,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 962,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 833,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1363,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 926,
+    "market": "UK"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "May",
+    "registrations": 905,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 646,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 684,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1180,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 766,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "May",
+    "registrations": 928,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 967,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 858,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 754,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1134,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 785,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 745,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 517,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 737,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 788,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1369,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 749,
+    "market": "UK"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "May",
+    "registrations": 919,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 518,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 522,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1050,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 579,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "May",
+    "registrations": 726,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 770,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 651,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 657,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1031,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 676,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 657,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 397,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 578,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 649,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 880,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 753,
+    "market": "UK"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "May",
+    "registrations": 602,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 453,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 464,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 717,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 499,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "May",
+    "registrations": 635,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 621,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 523,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 546,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 872,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 597,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 542,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 285,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 568,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 446,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 903,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 592,
+    "market": "UK"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "May",
+    "registrations": 689,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 323,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 310,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 532,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 466,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "May",
+    "registrations": 452,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 500,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 398,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 378,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 581,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 419,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 403,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 237,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 381,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 361,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 652,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 425,
+    "market": "UK"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "May",
+    "registrations": 425,
+    "market": "UK"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 35463,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 34907,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 65673,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 49785,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "May",
+    "registrations": 39360,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 48509,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 47754,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 40231,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 36453,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 48657,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 39874,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 21389,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 40668,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 42312,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 64445,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 52691,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volkswagen",
+    "year": 2026,
+    "month": "May",
+    "registrations": 44227,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 19106,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 23054,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 28740,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 22644,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "May",
+    "registrations": 20406,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 23702,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 26969,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 24080,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 22816,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 21138,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 20012,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 12671,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 22163,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 21039,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 39114,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 22978,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "year": 2026,
+    "month": "May",
+    "registrations": 22889,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 17011,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 18059,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 32603,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 21931,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "May",
+    "registrations": 21482,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 22757,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 23566,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 16942,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 18890,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 23448,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 18233,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 11877,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 18264,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 22806,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 29011,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 24910,
+    "market": "Germany"
+  },
+  {
+    "brand": "BMW",
+    "year": 2026,
+    "month": "May",
+    "registrations": 20997,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 14976,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 19246,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 25761,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 19346,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "May",
+    "registrations": 16910,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 22387,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 17253,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 17827,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 20138,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 19264,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 17153,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 9021,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 18583,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 17035,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 28739,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 22896,
+    "market": "Germany"
+  },
+  {
+    "brand": "Audi",
+    "year": 2026,
+    "month": "May",
+    "registrations": 20618,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 12257,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 14065,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 20249,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 15402,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 14465,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 14749,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 15147,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 11934,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 13828,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 14658,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 16491,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 9079,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 16259,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 13233,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 23075,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 17738,
+    "market": "Germany"
+  },
+  {
+    "brand": "Skoda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 14494,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 10892,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 12911,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 17715,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 13911,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "May",
+    "registrations": 11996,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 15582,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 15072,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 12327,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 13980,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 14604,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 12419,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 8294,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 12734,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 14123,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 19092,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 16156,
+    "market": "Germany"
+  },
+  {
+    "brand": "Opel",
+    "year": 2026,
+    "month": "May",
+    "registrations": 13839,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 8850,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 11531,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 15432,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 10296,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "May",
+    "registrations": 10861,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 12309,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 11457,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 8847,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 10091,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 9712,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 10348,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 5621,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 9849,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 10933,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 14223,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 10834,
+    "market": "Germany"
+  },
+  {
+    "brand": "Ford",
+    "year": 2026,
+    "month": "May",
+    "registrations": 10029,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 7495,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 9791,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 13386,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 8650,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "May",
+    "registrations": 9793,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 9160,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 10783,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 7458,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 8890,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 9962,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 9826,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4517,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 10307,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 10060,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 14001,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 9802,
+    "market": "Germany"
+  },
+  {
+    "brand": "Hyundai",
+    "year": 2026,
+    "month": "May",
+    "registrations": 9832,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 6807,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 7146,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 13711,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 7702,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "May",
+    "registrations": 8522,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 10716,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 9056,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 7621,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 8644,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 7150,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 7401,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4380,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 9212,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 8577,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 11338,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 8496,
+    "market": "Germany"
+  },
+  {
+    "brand": "Seat",
+    "year": 2026,
+    "month": "May",
+    "registrations": 8614,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 6471,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 6708,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 11699,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 8450,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "May",
+    "registrations": 9216,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 8034,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 7211,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 7162,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 8374,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 7097,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 7466,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4459,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 8574,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 6776,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 10740,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 7340,
+    "market": "Germany"
+  },
+  {
+    "brand": "Toyota",
+    "year": 2026,
+    "month": "May",
+    "registrations": 8406,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 5451,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 5593,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 9161,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6561,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "May",
+    "registrations": 6704,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 6595,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 6652,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 5624,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 6689,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 6089,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 6093,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4063,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 6465,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 5988,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 8643,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6622,
+    "market": "Germany"
+  },
+  {
+    "brand": "Renault",
+    "year": 2026,
+    "month": "May",
+    "registrations": 7236,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 5104,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 5738,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 8467,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5701,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "May",
+    "registrations": 6521,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 7449,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 5543,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4923,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 5532,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 6906,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 5514,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 4009,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5582,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 6164,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 10129,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 7261,
+    "market": "Germany"
+  },
+  {
+    "brand": "Kia",
+    "year": 2026,
+    "month": "May",
+    "registrations": 7371,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 4426,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 4761,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 6892,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 6116,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "May",
+    "registrations": 5143,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 5314,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 6299,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4719,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 5413,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 5437,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 5531,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2697,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 4922,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4612,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 9030,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 6493,
+    "market": "Germany"
+  },
+  {
+    "brand": "Dacia",
+    "year": 2026,
+    "month": "May",
+    "registrations": 6127,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 4086,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 4577,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 7374,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5467,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "May",
+    "registrations": 4408,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 5827,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 5559,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 5007,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 4248,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 4211,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 5043,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2712,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 5148,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4761,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 8524,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 5436,
+    "market": "Germany"
+  },
+  {
+    "brand": "Tesla",
+    "year": 2026,
+    "month": "May",
+    "registrations": 5931,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 3744,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3694,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 5956,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 5502,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "May",
+    "registrations": 4975,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 5940,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 4380,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4054,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 4601,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 4728,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 4794,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2667,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 4416,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 4305,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 7294,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 5021,
+    "market": "Germany"
+  },
+  {
+    "brand": "Fiat",
+    "year": 2026,
+    "month": "May",
+    "registrations": 4679,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 3407,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 4358,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 6605,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 4210,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "May",
+    "registrations": 4106,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4923,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 4036,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 4247,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3740,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3966,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 4088,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 2511,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 4458,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 3659,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 7058,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4058,
+    "market": "Germany"
+  },
+  {
+    "brand": "Peugeot",
+    "year": 2026,
+    "month": "May",
+    "registrations": 4073,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 3066,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3229,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4684,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 3440,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "May",
+    "registrations": 4081,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4309,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 3360,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 3418,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 4034,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3931,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 3768,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1873,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 3840,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 3106,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 5906,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 4082,
+    "market": "Germany"
+  },
+  {
+    "brand": "Citroen",
+    "year": 2026,
+    "month": "May",
+    "registrations": 4427,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2724,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 3446,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4819,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 3113,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 3557,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4309,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 3123,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 3204,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3667,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 3579,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2784,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1674,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 3460,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2774,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 4731,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 3236,
+    "market": "Germany"
+  },
+  {
+    "brand": "Mazda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3898,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2588,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2734,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4551,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 3765,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "May",
+    "registrations": 3228,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 4069,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2897,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2900,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 3344,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2766,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 3305,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1752,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 3352,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 3018,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 4765,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 3816,
+    "market": "Germany"
+  },
+  {
+    "brand": "Volvo",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3221,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2382,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2806,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 4121,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2668,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2853,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 3731,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2703,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2531,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2843,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2734,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2745,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1602,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2556,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2733,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3796,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 3115,
+    "market": "Germany"
+  },
+  {
+    "brand": "MINI",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2619,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2180,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2296,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3331,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2447,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2902,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 3064,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2389,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2431,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2869,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2795,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2679,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1332,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2731,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2209,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 4200,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2903,
+    "market": "Germany"
+  },
+  {
+    "brand": "Porsche",
+    "year": 2026,
+    "month": "May",
+    "registrations": 3148,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 2043,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2473,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3159,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2668,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2254,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 2433,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2852,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2064,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 2389,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2747,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2354,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1373,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2323,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2430,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3269,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2767,
+    "market": "Germany"
+  },
+  {
+    "brand": "Cupra",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2447,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1703,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 2027,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 3359,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 2254,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "May",
+    "registrations": 2336,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 2405,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 2231,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 2151,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1879,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 2041,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 2096,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1070,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 2343,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 2012,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 3371,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 2494,
+    "market": "Germany"
+  },
+  {
+    "brand": "Suzuki",
+    "year": 2026,
+    "month": "May",
+    "registrations": 2463,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1364,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1690,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 2058,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1807,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1615,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1638,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1601,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1662,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1501,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1663,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1780,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 1038,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1865,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1622,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2329,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1784,
+    "market": "Germany"
+  },
+  {
+    "brand": "Land Rover",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1778,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1226,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1384,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1996,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1697,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1326,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1602,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1340,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1427,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1633,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1697,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1620,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 868,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1338,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1637,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 2022,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1658,
+    "market": "Germany"
+  },
+  {
+    "brand": "Honda",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1748,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 1022,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 1189,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1787,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1266,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1205,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1534,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1161,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 1275,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 1106,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 1234,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1298,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 620,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1124,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 1181,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1657,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1325,
+    "market": "Germany"
+  },
+  {
+    "brand": "Nissan",
+    "year": 2026,
+    "month": "May",
+    "registrations": 1161,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 816,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 927,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1582,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 1176,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "May",
+    "registrations": 1127,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1108,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 1175,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 904,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 995,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 935,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 1034,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 641,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 1132,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 853,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1667,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 1054,
+    "market": "Germany"
+  },
+  {
+    "brand": "MG",
+    "year": 2026,
+    "month": "May",
+    "registrations": 997,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 681,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 800,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 1277,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 913,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "May",
+    "registrations": 935,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 1044,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 960,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 673,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 783,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 808,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 889,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 519,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 844,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 752,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1155,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 828,
+    "market": "Germany"
+  },
+  {
+    "brand": "Lexus",
+    "year": 2026,
+    "month": "May",
+    "registrations": 754,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 544,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 593,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 960,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 657,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "May",
+    "registrations": 743,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 835,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 686,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 587,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 653,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 644,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 644,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 422,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 621,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 683,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 1114,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 643,
+    "market": "Germany"
+  },
+  {
+    "brand": "BYD",
+    "year": 2026,
+    "month": "May",
+    "registrations": 735,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jan",
+    "registrations": 204,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Feb",
+    "registrations": 212,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Mar",
+    "registrations": 400,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Apr",
+    "registrations": 233,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "May",
+    "registrations": 272,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jun",
+    "registrations": 312,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Jul",
+    "registrations": 244,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Aug",
+    "registrations": 240,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Sep",
+    "registrations": 278,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Oct",
+    "registrations": 260,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Nov",
+    "registrations": 267,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2025,
+    "month": "Dec",
+    "registrations": 152,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Jan",
+    "registrations": 228,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Feb",
+    "registrations": 264,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Mar",
+    "registrations": 336,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "Apr",
+    "registrations": 303,
+    "market": "Germany"
+  },
+  {
+    "brand": "Jaguar",
+    "year": 2026,
+    "month": "May",
+    "registrations": 226,
+    "market": "Germany"
+  }
+]

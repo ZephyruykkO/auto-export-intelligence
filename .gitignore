@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+scraper/*.csv
+scraper/*.xlsx
+data/cache/

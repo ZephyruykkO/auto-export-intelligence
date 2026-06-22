@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汽车出海数据看板 — UK &amp; Germany</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"><\/script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f4f5f7;--card:#fff;--text:#1a1a2e;--muted:#6b7280;
+  --border:#e5e7eb;--uk:#2563eb;--de:#dc2626;
+  --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+}
+body{font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text)}
+.app{max-width:1280px;margin:0 auto;padding:24px 20px 40px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.header h1{font-size:22px;font-weight:700}
+.header .sub{font-size:13px;color:var(--muted);margin-top:2px}
+.year-tabs{display:flex;background:var(--card);border-radius:8px;border:1px solid var(--border);overflow:hidden}
+.year-tab{padding:8px 18px;font-size:13px;font-weight:600;cursor:pointer;border:none;background:transparent;color:var(--muted);transition:all .15s}
+.year-tab:hover{background:#f9fafb;color:var(--text)}
+.year-tab.active{background:var(--text);color:#fff}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px}
+.card{background:var(--card);border-radius:8px;padding:18px 20px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.card-label{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.card-value{font-size:28px;font-weight:700;line-height:1.1}
+.card-sub{font-size:12px;color:var(--muted);margin-top:4px}
+.card-value.uk{color:var(--uk)}.card-value.de{color:var(--de)}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
+.chart-panel{background:var(--card);border-radius:8px;padding:20px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.chart-title{font-size:14px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.chart-wrap{position:relative;height:320px}
+.chart-wrap canvas{width:100%!important;height:100%!important}
+.table-wrap{background:var(--card);border-radius:8px;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden}
+.table-header{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border)}
+.table-header h3{font-size:14px;font-weight:700}
+.search-input{padding:6px 12px;border:1px solid var(--border);border-radius:6px;font-size:13px;width:220px;outline:none}
+.search-input:focus{border-color:#94a3b8}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:10px 16px;text-align:right;white-space:nowrap}
+th{font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;background:#fafafa;border-bottom:1px solid var(--border);cursor:pointer;user-select:none}
+th:first-child,td:first-child{text-align:left;font-weight:600}
+td{border-bottom:1px solid #f3f4f6}
+tr:hover td{background:#f9fafb}
+.badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600}
+.badge.uk{background:#dbeafe;color:var(--uk)}.badge.de{background:#fce7f3;color:var(--de)}
+.market-toggle{display:flex;gap:4px}
+.mkt-btn{padding:5px 14px;font-size:12px;font-weight:600;border:1px solid var(--border);border-radius:6px;background:var(--card);cursor:pointer;color:var(--muted);transition:all .15s}
+.mkt-btn.active.uk-active{background:var(--uk);color:#fff;border-color:var(--uk)}
+.mkt-btn.active.de-active{background:var(--de);color:#fff;border-color:var(--de)}
+.mkt-btn.active.both-active{background:var(--text);color:#fff;border-color:var(--text)}
+.loading{text-align:center;padding:40px;color:var(--muted)}
+.footer{text-align:center;padding:20px;font-size:12px;color:var(--muted)}
+@media(max-width:900px){.cards{grid-template-columns:1fr 1fr}.charts{grid-template-columns:1fr}}
+@media(max-width:600px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<div class="header">
+<div><h1>汽车出海数据看板</h1><div class="sub">UK &amp; Germany · 品牌月度销量 · 2025–2026</div></div>
+<div style="display:flex;align-items:center;gap:16px">
+<div class="market-toggle">
+<button class="mkt-btn both-active active" data-mkt="both">全部</button>
+<button class="mkt-btn" data-mkt="UK">英国</button>
+<button class="mkt-btn" data-mkt="Germany">德国</button>
+</div>
+<div class="year-tabs">
+<button class="year-tab active" data-year="2025">2025</button>
+<button class="year-tab" data-year="2026">2026</button>
+<button class="year-tab" data-year="both">全部</button>
+</div>
+</div>
+</div>
+<div class="cards" id="cards"></div>
+<div class="charts">
+<div class="chart-panel"><div class="chart-title">Top 10 品牌销量对比</div><div class="chart-wrap"><canvas id="barChart"></canvas></div></div>
+<div class="chart-panel"><div class="chart-title">月度销量趋势 — Top 5</div><div class="chart-wrap"><canvas id="lineChart"></canvas></div></div>
+</div>
+<div class="table-wrap">
+<div class="table-header"><h3>品牌维度明细</h3><input class="search-input" id="searchBox" type="text" placeholder="搜索品牌…"></div>
+<div style="overflow-x:auto"><table><thead id="tableHead"></thead><tbody id="tableBody"></tbody></table></div>
+</div>
+<div class="footer">数据来源: SMMT (UK) / KBA (Germany) · 示例数据仅供展示 · 更新于 2026-06</div>
+</div>
+<script>
+var allData=[],currentYear="2025",currentMarket="both",barChart=null,lineChart=null;
+async function init(){try{var r=await fetch("../data/uk_germany_2025_2026.json");allData=await r.json()}catch(e){document.querySelector(".app").innerHTML='<div class="loading">无法加载数据文件<br><small>请先运行爬虫脚本生成 data/uk_germany_2025_2026.json</small></div>';return}renderAll()}
+function filterData(){return allData.filter(function(d){if(currentYear!=="both"&&String(d.year)!==currentYear)return false;if(currentMarket!=="both"&&d.market!==currentMarket)return false;return true})}
+function fmt(n){return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n)}
+function renderAll(){renderCards();renderBarChart();renderLineChart();renderTable()}
+function renderCards(){var d=filterData(),uk=d.filter(function(x){return x.market==="UK"}),de=d.filter(function(x){return x.market==="Germany"});var ut=uk.reduce(function(s,x){return s+x.registrations},0),dt=de.reduce(function(s,x){return s+x.registrations},0);var ub={},db={};uk.forEach(function(x){ub[x.brand]=(ub[x.brand]||0)+x.registrations});de.forEach(function(x){db[x.brand]=(db[x.brand]||0)+x.registrations});var utop=Object.entries(ub).sort(function(a,b){return b[1]-a[1]})[0],dtop=Object.entries(db).sort(function(a,b){return b[1]-a[1]})[0];document.getElementById("cards").innerHTML='<div class="card"><div class="card-label">英国总销量</div><div class="card-value uk">'+fmt(ut)+'</div><div class="card-sub">'+uk.length+' 条记录</div></div><div class="card"><div class="card-label">德国总销量</div><div class="card-value de">'+fmt(dt)+'</div><div class="card-sub">'+de.length+' 条记录</div></div><div class="card"><div class="card-label">英国 Top 品牌</div><div class="card-value" style="font-size:22px">'+(utop?utop[0]:"-")+'</div><div class="card-sub">'+(utop?fmt(utop[1]):"")+'</div></div><div class="card"><div class="card-label">德国 Top 品牌</div><div class="card-value" style="font-size:22px">'+(dtop?dtop[0]:"-")+'</div><div class="card-sub">'+(dtop?fmt(dtop[1]):"")+'</div></div>'}
+function renderBarChart(){var d=filterData(),ub={},db={};d.forEach(function(x){var m=x.market==="UK"?ub:db;m[x.brand]=(m[x.brand]||0)+x.registrations});var all=Object.keys(Object.assign({},ub,db));var top=all.map(function(b){return{brand:b,uk:ub[b]||0,de:db[b]||0,total:(ub[b]||0)+(db[b]||0)}}).sort(function(a,b){return b.total-a.total}).slice(0,10);if(barChart)barChart.destroy();var ctx=document.getElementById("barChart").getContext("2d");barChart=new Chart(ctx,{type:"bar",data:{labels:top.map(function(r){return r.brand}),datasets:[{label:"UK",data:top.map(function(r){return r.uk}),backgroundColor:"#2563eb",borderRadius:4},{label:"Germany",data:top.map(function(r){return r.de}),backgroundColor:"#dc2626",borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8}}},scales:{x:{grid:{display:false},ticks:{font:{size:11}}},y:{ticks:{callback:function(v){return v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?(v/1e3).toFixed(0)+"K":v}}}}}})}
+function renderLineChart(){var d=filterData(),map={};d.forEach(function(x){var k=x.brand+"|"+x.market;if(!map[k])map[k]={};map[k][x.month]=(map[k][x.month]||0)+x.registrations});var totals={};for(var k in map){var ms=map[k];totals[k]=0;for(var m in ms)totals[k]+=ms[m]}var top5=Object.entries(totals).sort(function(a,b){return b[1]-a[1]}).slice(0,5).map(function(e){return e[0]});var mo=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var colors=["#2563eb","#dc2626","#16a34a","#9333ea","#ea580c"];var ds=top5.map(function(k,i){var p=k.split("|"),b=p[0],m=p[1];return{label:b+" ("+m+")",data:mo.map(function(mm){return map[k][mm]||0}),borderColor:colors[i],backgroundColor:colors[i]+"20",tension:.3,pointRadius:2,borderWidth:2}});if(lineChart)lineChart.destroy();var ctx=document.getElementById("lineChart").getContext("2d");lineChart=new Chart(ctx,{type:"line",data:{labels:mo,datasets:ds},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8,font:{size:10}}}},scales:{x:{grid:{display:false}},y:{ticks:{callback:function(v){return v>=1e3?(v/1e3).toFixed(0)+"K":v}}}}}})}
+function renderTable(ft){ft=ft||"";var d=filterData(),agg={};d.forEach(function(x){var k=x.brand;if(!agg[k])agg[k]={brand:x.brand,UK:0,Germany:0};agg[k][x.market]+=x.registrations});var rows=Object.values(agg);if(ft)rows=rows.filter(function(r){return r.brand.toLowerCase().indexOf(ft.toLowerCase())>=0});rows.sort(function(a,b){return(b.UK+b.Germany)-(a.UK+a.Germany)});function f(n){return n>=1e6?(n/1e6).toFixed(2)+"M":(n/1e3).toFixed(0)+"K"}document.getElementById("tableHead").innerHTML='<tr><th>品牌</th><th>UK</th><th>Germany</th><th>合计</th></tr>';var h="";rows.forEach(function(r){h+='<tr><td>'+r.brand+'</td><td><span class="badge uk">'+f(r.UK)+'</span></td><td><span class="badge de">'+f(r.Germany)+'</span></td><td style="font-weight:600">'+f(r.UK+r.Germany)+'</td></tr>'});document.getElementById("tableBody").innerHTML=h}
+document.querySelectorAll(".year-tab").forEach(function(b){b.addEventListener("click",function(){document.querySelectorAll(".year-tab").forEach(function(x){x.classList.remove("active")});b.classList.add("active");currentYear=b.dataset.year;renderAll()})});
+document.querySelectorAll(".mkt-btn").forEach(function(b){b.addEventListener("click",function(){document.querySelectorAll(".mkt-btn").forEach(function(x){x.classList.remove("active","uk-active","de-active","both-active")});currentMarket=b.dataset.mkt;var c=currentMarket==="UK"?"uk-active":currentMarket==="Germany"?"de-active":"both-active";b.classList.add("active",c);renderAll()})});
+document.getElementById("searchBox").addEventListener("input",function(e){renderTable(e.target.value)});
+init();
+<\/script>
+</body>
+</html>
