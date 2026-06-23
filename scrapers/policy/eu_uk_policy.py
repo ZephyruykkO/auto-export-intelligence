@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-DATA_DIR = Path(__file__).resolve().parent.parent.parent / "policy"
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "dashboard"
 REQUEST_TIMEOUT = 30
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; AutoExportIntel/1.0; +research)",
@@ -216,7 +216,7 @@ def run():
         "summary_by_source": summary,
         "items": all_items,
     }
-    out_path = DATA_DIR / "data.json"
+    out_path = DATA_DIR / "policy-data.json"
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=2)
     print(f"  Wrote {len(all_items)} items to {out_path}")

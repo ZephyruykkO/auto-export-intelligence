@@ -71,7 +71,7 @@ var currentFilter = "all";
 
 async function init() {
 try {
-var r = await fetch("data.json");
+var r = await fetch("policy-data.json");
 var d = await r.json();
 allTopics = d.topics;
 document.getElementById("updated").textContent = "更新于: " + (d.updated || "—").slice(0,10);
