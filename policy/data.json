@@ -1,0 +1,181 @@
+{
+  "updated": "2026-06-23T00:00:00Z",
+  "sources": [
+    {
+      "id": "eu_eurlex_tariff",
+      "name": "EU EUR-Lex (反补贴关税)",
+      "url": "https://eur-lex.europa.eu/",
+      "status": "active"
+    },
+    {
+      "id": "uk_zev_mandate",
+      "name": "UK ZEV Mandate (零排放车积分)",
+      "url": "https://www.gov.uk/government/collections/zero-emission-vehicle-mandate",
+      "status": "active"
+    },
+    {
+      "id": "uk_tariff",
+      "name": "UK Global Tariff (全球关税)",
+      "url": "https://www.gov.uk/government/collections/uk-global-tariff",
+      "status": "active"
+    },
+    {
+      "id": "acea_fuel_types",
+      "name": "ACEA (燃油类型统计)",
+      "url": "https://www.acea.auto/fuel-pc/fuel-types-of-new-cars/",
+      "status": "active"
+    },
+    {
+      "id": "unece_wp29",
+      "name": "UNECE WP.29 (汽车法规)",
+      "url": "https://unece.org/transport/vehicle-regulations-wp29",
+      "status": "active"
+    }
+  ],
+  "topics": [
+    {
+      "id": "eu_bev_tariff",
+      "title": "欧盟对华纯电动车反补贴关税",
+      "jurisdiction": "EU / 德国",
+      "status": "生效中",
+      "effective_date": "2024-10-31",
+      "summary": "欧盟对中国产纯电动车征收反补贴关税，在原有10%基础关税之上叠加。BYD 17.4%、Geely 19.9%、SAIC 37.6%、其他合作企业 21.3%、非合作企业 37.6%。",
+      "impact_uk": "英国未跟进，UK Global Tariff 对中国产汽车维持10%基础税率。",
+      "impact_de": "德国市场受冲击最大，中国BEV MSRP实际上涨€3,000-€12,000不等。",
+      "monitoring": "2026年欧盟将进行期中复审，关税可能调整。",
+      "links": [
+        {
+          "text": "EUR-Lex 法规原文",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2753/oj"
+        },
+        {
+          "text": "欧盟委员会公告",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5441"
+        }
+      ]
+    },
+    {
+      "id": "uk_zev",
+      "title": "英国 ZEV 积分法案",
+      "jurisdiction": "UK",
+      "status": "执行中",
+      "effective_date": "2024-01-01",
+      "summary": "ZEV Mandate 要求主机厂逐年提高零排放车销售比例：2024年22% → 2025年28% → 2026年33% → 2030年80%。未达标罚款 £15,000/辆。",
+      "impact_uk": "不达标厂商需购买积分或支付罚款。对中国BEV品牌是机遇：BEV热销可产生富余积分出售。",
+      "impact_de": "不适用。",
+      "monitoring": "DVSA 每季度公布各厂商积分达成率。非ZEV积分（CO₂ Fleet Average）也需同时达标。",
+      "links": [
+        {
+          "text": "GOV.UK ZEV Mandate 官方页",
+          "url": "https://www.gov.uk/government/collections/zero-emission-vehicle-mandate"
+        },
+        {
+          "text": "ZEV Mandate 详细指南",
+          "url": "https://www.gov.uk/government/publications/zero-emission-vehicle-zev-mandate"
+        }
+      ]
+    },
+    {
+      "id": "uk_bik",
+      "title": "英国 BIK 公司车税优惠",
+      "jurisdiction": "UK",
+      "status": "延续中（至2028年3月）",
+      "effective_date": "2020-04-06",
+      "summary": "纯电动车 Benefit-in-Kind (BIK) 税率维持极低水平：2025-2026为3%，2026-2027为3%，2027-2028为3%。对比燃油车BIK税率20%-37%，BEV对车队用户节省巨大。",
+      "impact_uk": "这是英国企业车队市场转向BEV的最强驱动力。中国BEV品牌应主攻车队渠道。",
+      "impact_de": "德国取消补贴后已无等效力度的财税激励。",
+      "monitoring": "2028年3月后BIK税率是否上调将影响车队采购决策窗口。",
+      "links": [
+        {
+          "text": "HMRC BIK 税率表",
+          "url": "https://www.gov.uk/guidance/advisory-fuel-rates"
+        }
+      ]
+    },
+    {
+      "id": "un_r155",
+      "title": "UN R155 汽车网络安全法规",
+      "jurisdiction": "EU + UK",
+      "status": "强制（2024年7月起新车型）",
+      "effective_date": "2024-07-01",
+      "summary": "UN R155 要求主机厂建立网络安全管理系统(CSMS)，覆盖车辆全生命周期（设计→生产→售后→OTA更新）。认证必须由指定技术服务机构完成。",
+      "impact_uk": "通过英国 VCA 或欧盟 TÜV 认证均可。认证费用约€80万-€120万/车型体系。",
+      "impact_de": "通过德国 KBA 或其指定机构认证。KBA 对中国品牌的审核流程可能比欧洲品牌严格。",
+      "monitoring": "2026年起，存量车型（2024年7月前认证）也需完成CSMS合规改造。",
+      "links": [
+        {
+          "text": "UNECE R155 官方文本",
+          "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security"
+        }
+      ]
+    },
+    {
+      "id": "un_r156",
+      "title": "UN R156 软件升级法规",
+      "jurisdiction": "EU + UK",
+      "status": "强制（2024年7月起新车型）",
+      "effective_date": "2024-07-01",
+      "summary": "UN R156 要求主机厂建立软件升级管理系统(SUMS)。每次OTA更新需完成文档记录、测试验证和合规审计。",
+      "impact_uk": "与中国车企OTA能力不冲突，但每轮更新需额外完成DPIA（数据保护影响评估）。",
+      "impact_de": "德国 BSIG（联邦信息安全法）对OTA有额外要求，包括TÜV IT安全评估。",
+      "monitoring": "每次重大OTA更新需提前向认证机构报备，审核周期约2-4周。",
+      "links": [
+        {
+          "text": "UNECE R156 官方文本",
+          "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-156-software-update"
+        }
+      ]
+    },
+    {
+      "id": "de_co2_tax",
+      "title": "德国 CO₂ 车辆税分级",
+      "jurisdiction": "Germany",
+      "status": "执行中",
+      "effective_date": "2021-01-01",
+      "summary": "德国 Kfz-Steuer 按 CO₂ g/km 累进征收。基准95g/km以下免征CO₂税，超出部分€2/g/km。大马力BEV零CO₂税。",
+      "impact_uk": "不适用。英国 VED（车辆消费税）对BEV目前零税，但2025年4月起£10/年。",
+      "impact_de": "对中国插混(PHEV)车型影响较大，需控制CO₂排放值以降低年税。BEV不受影响。",
+      "monitoring": "CO₂税率可能随环保目标逐年上调。",
+      "links": [
+        {
+          "text": "德国 Kfz-Steuer 法规",
+          "url": "https://www.gesetze-im-internet.de/kraftstg/"
+        }
+      ]
+    },
+    {
+      "id": "eu_battery_reg",
+      "title": "欧盟电池法规 (EU Battery Regulation)",
+      "jurisdiction": "EU",
+      "status": "逐步生效（2024-2027）",
+      "effective_date": "2024-02-18",
+      "summary": "新电池法规要求：碳足迹声明（2025年2月）、数字电池护照（2027年2月）、回收材料最低含量（2031年）。覆盖动力电池全生命周期。",
+      "impact_uk": "英国尚未跟进，但UK Battery Strategy方向类似。",
+      "impact_de": "德国作为欧盟成员国直接适用。中国电池供应商（CATL、BYD、CALB等）需完成碳足迹核算和电池护照部署。",
+      "monitoring": "碳足迹声明截止日期2025年2月已过，需确认中国供应商是否全部合规。",
+      "links": [
+        {
+          "text": "EU Battery Regulation 全文",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+        }
+      ]
+    },
+    {
+      "id": "de_sub_repeal",
+      "title": "德国纯电补贴取消",
+      "jurisdiction": "Germany",
+      "status": "已取消",
+      "effective_date": "2023-12-18",
+      "summary": "德国 Umweltbonus（环保补贴）于2023年12月突然终止。此前纯电补贴€4,500（含厂商补贴€2,250）。对BEV市场造成短期冲击。",
+      "impact_uk": "英国Plug-in Car Grant已于2022年6月取消，但BIK优惠仍在。",
+      "impact_de": "补贴取消后2024年德国BEV销量同比下降。中国品牌进入德国市场需完全靠产品力和价格竞争。",
+      "monitoring": "是否有新的替代激励政策（如2025年选举后新政府提案）。",
+      "links": [
+        {
+          "text": "德国联邦经济部公告",
+          "url": "https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2023/12/20231217-umweltbonus.html"
+        }
+      ]
+    }
+  ]
+}
