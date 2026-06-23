@@ -1,0 +1,147 @@
+{
+  "updated": "2026-06-23T00:00:00Z",
+  "source": "OpenChargeMap (api.openchargemap.io) — sample data for dashboard, run scraper for live data",
+  "summary": [
+    {
+      "country": "UK",
+      "total_stations": 71820,
+      "fast_50kw_plus": 25140,
+      "hpc_150kw_plus": 17960,
+      "slow_under_50kw": 46680,
+      "hpc_pct": 25
+    },
+    {
+      "country": "Germany",
+      "total_stations": 142400,
+      "fast_50kw_plus": 56960,
+      "hpc_150kw_plus": 42720,
+      "slow_under_50kw": 85440,
+      "hpc_pct": 30
+    }
+  ],
+  "uk_regions": [
+    {
+      "region": "Greater London",
+      "total": 18500,
+      "hpc_pct": 28
+    },
+    {
+      "region": "South East",
+      "total": 11200,
+      "hpc_pct": 24
+    },
+    {
+      "region": "North West",
+      "total": 7800,
+      "hpc_pct": 22
+    },
+    {
+      "region": "Scotland",
+      "total": 6500,
+      "hpc_pct": 26
+    },
+    {
+      "region": "West Midlands",
+      "total": 5900,
+      "hpc_pct": 23
+    },
+    {
+      "region": "Yorkshire",
+      "total": 5500,
+      "hpc_pct": 20
+    },
+    {
+      "region": "East of England",
+      "total": 5200,
+      "hpc_pct": 24
+    },
+    {
+      "region": "South West",
+      "total": 4800,
+      "hpc_pct": 21
+    },
+    {
+      "region": "East Midlands",
+      "total": 4200,
+      "hpc_pct": 22
+    },
+    {
+      "region": "Wales",
+      "total": 3400,
+      "hpc_pct": 19
+    },
+    {
+      "region": "North East",
+      "total": 2200,
+      "hpc_pct": 25
+    }
+  ],
+  "de_regions": [
+    {
+      "region": "Nordrhein-Westfalen",
+      "total": 31000,
+      "hpc_pct": 32
+    },
+    {
+      "region": "Bayern",
+      "total": 24000,
+      "hpc_pct": 30
+    },
+    {
+      "region": "Baden-Wuerttemberg",
+      "total": 21000,
+      "hpc_pct": 33
+    },
+    {
+      "region": "Niedersachsen",
+      "total": 16000,
+      "hpc_pct": 28
+    },
+    {
+      "region": "Hessen",
+      "total": 12000,
+      "hpc_pct": 31
+    },
+    {
+      "region": "Berlin",
+      "total": 9500,
+      "hpc_pct": 35
+    },
+    {
+      "region": "Sachsen",
+      "total": 7500,
+      "hpc_pct": 27
+    },
+    {
+      "region": "Hamburg",
+      "total": 6500,
+      "hpc_pct": 34
+    }
+  ],
+  "charging_prices": {
+    "UK": {
+      "home_kwh": 0.3,
+      "public_slow_kwh": 0.45,
+      "public_fast_kwh": 0.65,
+      "public_hpc_kwh": 0.79
+    },
+    "Germany": {
+      "home_kwh": 0.3,
+      "public_slow_kwh": 0.4,
+      "public_fast_kwh": 0.6,
+      "public_hpc_kwh": 0.79
+    }
+  },
+  "home_charging_penetration": {
+    "UK": {
+      "have_driveway": 60,
+      "street_parking": 40,
+      "can_install_wallbox": 55
+    },
+    "Germany": {
+      "have_driveway": 72,
+      "street_parking": 28,
+      "can_install_wallbox": 65
+    }
+  }
+}
