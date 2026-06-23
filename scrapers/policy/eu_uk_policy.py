@@ -32,7 +32,7 @@ SOURCES = [
         "type": "api",
         "url": (
             "https://eur-lex.europa.eu/search.html?"
-            "q=electric+vehicles+China+subsidy+tariff"
+            "q=electric+vehicles+China+subsidy+tariff&type=regulation&lang=en"
             "&type=regulation&scope=EURLEX&lang=en"
         ),
         "parser": "eurlex_search",
