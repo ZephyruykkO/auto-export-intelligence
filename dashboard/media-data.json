@@ -1,0 +1,57 @@
+{
+  "updated": "2026-06-23T00:00:00Z",
+  "source": "What Car? / Auto Express / Auto Bild / Auto Motor und Sport — sample data",
+  "total_articles": 47,
+  "articles": [
+    {
+      "source": "whatcar",
+      "title": "BYD Atto 3 review 2026 — the best value EV in Britain?",
+      "url": "https://www.whatcar.com/byd/atto-3/hatchback/review"
+    },
+    {
+      "source": "whatcar",
+      "title": "MG4 EV long-term test: six months with Britain's cheapest electric car",
+      "url": "https://www.whatcar.com/mg/mg4/hatchback/review"
+    },
+    {
+      "source": "autoexpress",
+      "title": "New BYD Seal 2026 review: Tesla Model 3 rival impresses",
+      "url": "https://www.autoexpress.co.uk/byd/seal"
+    },
+    {
+      "source": "autoexpress",
+      "title": "Best Chinese cars 2026: the top 10 Chinese cars you can buy in the UK",
+      "url": "https://www.autoexpress.co.uk/best-chinese-cars"
+    },
+    {
+      "source": "autobild",
+      "title": "BYD Seal im Test: China-Stromer macht Tesla Konkurrenz",
+      "url": "https://www.autobild.de/artikel/byd-seal-test-2025"
+    },
+    {
+      "source": "autobild",
+      "title": "MG4 Electric: Der China-Kompakte im Dauertest",
+      "url": "https://www.autobild.de/artikel/mg4-electric-test-2025"
+    },
+    {
+      "source": "autobild",
+      "title": "NIO ET5: Chinesischer Premium-Stromer greift BMW i4 an",
+      "url": "https://www.autobild.de/artikel/nio-et5-test-2026"
+    },
+    {
+      "source": "ams",
+      "title": "Chinesische Autos 2026: Diese Modelle kommen nach Deutschland",
+      "url": "https://www.auto-motor-und-sport.de/verkehr/chinesische-autos-2026-deutschland"
+    },
+    {
+      "source": "ams",
+      "title": "BYD Atto 3 Test: Wie gut ist das China-SUV wirklich?",
+      "url": "https://www.auto-motor-und-sport.de/test/byd-atto-3-2025"
+    },
+    {
+      "source": "ams",
+      "title": "Vergleichstest: BYD Seal gegen Tesla Model 3 und VW ID.7",
+      "url": "https://www.auto-motor-und-sport.de/vergleichstest/byd-seal-tesla-model3-vw-id7-2026"
+    }
+  ]
+}
