@@ -4,6 +4,44 @@
 
 > 基于 Gemini 初始框架 + Codex 补充修订 · 2026-06
 
+## 📎 数据源索引（点击可打开）
+
+| 数据类别 | 来源 | 链接 |
+|---------|------|------|
+| 英国品牌月度销量 | SMMT 新车注册 | [smmt.co.uk](https://www.smmt.co.uk/vehicle-data/car-registrations/) |
+| 德国品牌月度销量 | KBA 新车注册 | [kba.de](https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/neuzulassungen_node.html) |
+| 欧盟反补贴关税 | EUR-Lex 法规检索 | [eur-lex.europa.eu](https://eur-lex.europa.eu/search.html?q=electric+vehicles+China+subsidy+tariff) |
+| 英国 ZEV 积分法案 | UK Gov 零排放车政策 | [gov.uk ZEV](https://www.gov.uk/government/collections/zero-emission-vehicle-mandate) |
+| 欧盟燃油车注册统计 | ACEA 数据 | [acea.auto](https://www.acea.auto/fuel-pc/fuel-types-of-new-cars/) |
+| UN R155/R156 认证 | UNECE WP.29 | [unece.org](https://unece.org/sustainable-development/sustainable-mobility/automotive-regulations) |
+| 德国 CO₂ 车辆税 | Kfz-Steuer 法规 | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kraftstg/) |
+| 充电基础设施 | OpenChargeMap API | [openchargemap.org](https://openchargemap.org/) |
+| 德国充电网络规划 | Deutschlandnetz | [bmdv.de](https://bmdv.bund.de/SharedDocs/DE/Artikel/G/deutschlandnetz.html) |
+| 英国快充基金 | Rapid Charging Fund | [gov.uk RCF](https://www.gov.uk/government/publications/rapid-charging-fund) |
+| 英国车险分组 | ABI 保险分组 | [abi.org.uk](https://www.abi.org.uk/products-and-issues/choosing-the-right-insurance/motor-insurance/group-rating/) |
+| 英国残值评估 | CAP HPI | [cap-hpi.com](https://www.cap-hpi.com/) |
+| 德国残值评估 | Eurotax Schwacke | [eurotax.com](https://www.eurotax.com/) |
+| 德国汽车媒体 | Auto Bild | [autobild.de](https://www.autobild.de/) |
+| 德国汽车媒体 | Auto Motor und Sport | [auto-motor-und-sport.de](https://www.auto-motor-und-sport.de/) |
+| 英国汽车媒体 | What Car? | [whatcar.com](https://www.whatcar.com/) |
+| 英国汽车媒体 | Auto Express | [autoexpress.co.uk](https://www.autoexpress.co.uk/) |
+| YouTube 数据 | YouTube Data API v3 | [developers.google.com/youtube](https://developers.google.com/youtube/v3) |
+| Reddit 数据 | Reddit API (PRAW) | [praw.readthedocs.io](https://praw.readthedocs.io/) |
+| 英国质保法规 | Consumer Rights Act 2015 | [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2015/15) |
+| 德国质保法规 | BGB Gewährleistung | [gesetze-im-internet.de/bgb](https://www.gesetze-im-internet.de/bgb/) |
+| 英国经销商集团 | Sytner Group | [sytner.co.uk](https://www.sytner.co.uk/) |
+| 英国经销商集团 | Arnold Clark | [arnoldclark.com](https://www.arnoldclark.com/) |
+| 德国经销商集团 | Emil Frey | [emilfrey.de](https://www.emilfrey.de/) |
+| 汽车金融平台 | BNP Paribas PF | [bnpparibas-pf.com](https://www.bnpparibas-pf.com/) |
+| 汽车金融平台 | Santander Consumer | [santanderconsumer.com](https://www.santanderconsumer.com/) |
+| 车队管理公司 | Ayvens (原 ALD/LeasePlan) | [ayvens.com](https://www.ayvens.com/) |
+| 德国连锁售后 | ATU | [atu.de](https://www.atu.de/) |
+| 英国连锁售后 | Kwik Fit | [kwik-fit.com](https://www.kwik-fit.com/) |
+
+---
+
+
+
 ---
 
 ## 第一模块：宏观环境与准入壁垒（Market Environment & Compliance）
@@ -210,14 +248,14 @@
 
 本框架的定量支撑与项目爬虫看板的数据层对应关系：
 
-| 框架模块 | 所需数据 | 数据源状态 |
-|---------|---------|-----------|
-| 1.1 关税与成本 | 品牌销量数据（推算市场规模） | ✅ 看板已覆盖 |
-| 2.1 充电网络 | 充电站密度/覆盖率数据 | 🔜 待接入 |
-| 3.1 车队市场 | 品牌 × 注册类型（企业/个人）拆分 | 🔜 待爬取 |
-| 3.3 残值 | Eurotax / CAP HPI 残值数据 | 🔜 第三方 API |
-| 5.1 TCO 矩阵 | 保险分级、充电价格、保养成本 | 🔜 待采集 |
-| 6.2 销量目标 | 月度品牌销量趋势 | ✅ 看板已覆盖 |
+| 框架模块 | 所需数据 | 数据源 | 状态 |
+|---------|---------|--------|------|
+| 1.1 关税与成本 | 品牌销量数据（推算市场规模） | [SMMT](https://www.smmt.co.uk/) / [KBA](https://www.kba.de/) | ✅ 已覆盖 |
+| 2.1 充电网络 | 充电站密度/覆盖率数据 | [OpenChargeMap](https://openchargemap.org/) | 🔜 待接入 |
+| 3.1 车队市场 | 品牌 × 注册类型拆分 | SMMT / KBA 细分数据 | 🔜 待爬取 |
+| 3.3 残值 | 残值评估数据 | [CAP HPI](https://www.cap-hpi.com/) / [Eurotax](https://www.eurotax.com/) | 🔜 第三方 API |
+| 5.1 TCO 矩阵 | 保险分级、充电价格、保养成本 | [ABI](https://www.abi.org.uk/) / [IONITY](https://ionity.eu/) | 🔜 待采集 |
+| 6.2 销量目标 | 月度品牌销量趋势 | [SMMT](https://www.smmt.co.uk/) / [KBA](https://www.kba.de/) | ✅ 已覆盖 |
 
 ---
 
