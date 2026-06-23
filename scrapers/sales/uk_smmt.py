@@ -8,6 +8,10 @@ import pandas as pd, requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.smmt.co.uk/vehicle-data/car-registrations/"
+# NOTE: SMMT now requires free account login for detailed tables.
+# Register at smmt.co.uk → navigate to Vehicle Data → Car Registrations.
+# Fallback: https://www.acea.auto/fuel-pc/fuel-types-of-new-cars/
+FALLBACK_URL = "https://www.acea.auto/fuel-pc/fuel-types-of-new-cars/"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "uk_brand_sales.json"
 REQUEST_TIMEOUT = 30
