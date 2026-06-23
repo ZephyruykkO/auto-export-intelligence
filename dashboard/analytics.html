@@ -44,8 +44,8 @@ body{font:13px/1.5 Inter,-apple-system,sans-serif;background:var(--bg);color:var
 <h2>Charging Infrastructure (2026)</h2>
 <div class="kpi-row" id="ikpi"></div>
 <div class="chart2">
-<div class="panel"><h3>UK Regional Distribution</h3><div class="wrap"><canvas id="ukBar"></canvas></div></div>
-<div class="panel"><h3>Germany Regional Distribution</h3><div class="wrap"><canvas id="deBar"></canvas></div></div>
+<div class="panel"><h3>UK Regional Distribution</h3><div class="wrap"><canvas id="cukReg"></canvas></div></div>
+<div class="panel"><h3>Germany Regional Distribution</h3><div class="wrap"><canvas id="cdeReg"></canvas></div></div>
 </div>
 </div>
 
@@ -53,8 +53,8 @@ body{font:13px/1.5 Inter,-apple-system,sans-serif;background:var(--bg);color:var
 <div class="section">
 <h2>TCO Comparison (60% Home Charging)</h2>
 <div class="chart2">
-<div class="panel"><h3>UK — Monthly TCO</h3><div class="wrap"><canvas id="tcoUK"></canvas></div></div>
-<div class="panel"><h3>Germany — Monthly TCO</h3><div class="wrap"><canvas id="tcoDE"></canvas></div></div>
+<div class="panel"><h3>UK — Monthly TCO</h3><div class="wrap"><canvas id="ctcoUK"></canvas></div></div>
+<div class="panel"><h3>Germany — Monthly TCO</h3><div class="wrap"><canvas id="ctcoDE"></canvas></div></div>
 </div>
 </div>
 
@@ -98,7 +98,7 @@ function mkBar(id,data,lbl,clr){
 var c=document.getElementById(id);if(window[id])window[id].destroy();
 window[id]=new Chart(c,{type:"bar",data:{labels:data.map(function(d){return d.region}),datasets:[{label:lbl,data:data.map(function(d){return d.total}),backgroundColor:clr,borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return K(v)}}}}}});
 }
-mkBar("ukBar",ur.slice(0,8),"UK",var(--uk));mkBar("deBar",dr.slice(0,8),"DE",var(--de));
+mkBar("cukReg",ur.slice(0,8),"UK","#2563eb");mkBar("cdeReg",dr.slice(0,8),"DE","#dc2626");
 }
 
 function rTCO(){
@@ -108,7 +108,7 @@ function mkBar(id,data,clr){
 var c=document.getElementById(id);if(window[id])window[id].destroy();
 window[id]=new Chart(c,{type:"bar",data:{labels:data.map(function(d){return d.vehicle}),datasets:[{label:"Monthly TCO",data:data.map(function(d){return d.monthly_tco}),backgroundColor:data.map(function(d,i){return clr+"dd";}),borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return "GBP "+v}}}}}});
 }
-mkBar("tcoUK",uk60,"#2563eb");mkBar("tcoDE",de60,"#dc2626");
+mkBar("ctcoUK",uk60,"#2563eb");mkBar("ctcoDE",de60,"#dc2626");
 }
 
 function rForecast(){
