@@ -95,42 +95,82 @@ var INLINE_SOCIAL={"updated":"2026-06-23T00:00:00Z","source":"YouTube Data API v
 var c1=null,c2=null,c3=null,c4=null,c5=null,c6=null;
 function K(n){return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":n}
 function init(){
+  // === INFRA ===
   var s=INLINE_INFRA.summary;
   document.getElementById("ikpi").innerHTML=s.map(function(x){return'<div class="kpi"><div class="lbl">'+x.country+' Stations</div><div class="val">'+K(x.total_stations)+'</div><div class="sub">HPC: '+K(x.hpc_150kw_plus)+' ('+x.hpc_pct+'%) | Fast: '+K(x.fast_50kw_plus)+'</div></div><div class="kpi"><div class="lbl">'+x.country+' Home Charging</div><div class="val">'+(INLINE_INFRA.home_charging_penetration[x.country].can_install_wallbox)+'%</div><div class="sub">Can install wallbox</div></div>'}).join("");
 
   var ur=INLINE_INFRA.uk_regions||[],dr=INLINE_INFRA.de_regions||[];
   function mkBar(cid,data,clr){
-    var ctx=document.getElementById(cid).getContext("2d");
-    var k="chart_"+cid;if(window[k])window[k].destroy();
-    window[k]=new Chart(ctx,{type:"bar",data:{labels:data.map(function(d){return d.region}),datasets:[{label:"Stations",data:data.map(function(d){return d.total}),backgroundColor:clr,borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return K(v)}}}}}});
+    try{
+      var ctx=document.getElementById(cid).getContext("2d");
+      var k="chart_"+cid;if(window[k])window[k].destroy();
+      window[k]=new Chart(ctx,{type:"bar",data:{labels:data.map(function(d){return d.region}),datasets:[{label:"Stations",data:data.map(function(d){return d.total}),backgroundColor:clr,borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return K(v)}}}}}});
+    }catch(e){console.log("Infra chart error:",e)}
   }
   mkBar("cukReg",ur.slice(0,8),"#2563eb");
   mkBar("cdeReg",dr.slice(0,8),"#dc2626");
 
-  var uk60=INLINE_TCO.filter(function(t){return t.market=="UK"&&t.home_charging_pct==60}).sort(function(a,b){return a.monthly_tco-b.monthly_tco});
-  var de60=INLINE_TCO.filter(function(t){return t.market=="Germany"&&t.home_charging_pct==60}).sort(function(a,b){return a.monthly_tco-b.monthly_tco});
-  function mkTco(cid,data){
-    var ctx=document.getElementById(cid).getContext("2d");
-    var k="chart_"+cid;if(window[k])window[k].destroy();
-    window[k]=new Chart(ctx,{type:"bar",data:{labels:data.map(function(d){return d.vehicle}),datasets:[{label:"Monthly TCO",data:data.map(function(d){return d.monthly_tco}),backgroundColor:data.map(function(_,i){return i<3?"#2563eb":i<5?"#8b5cf6":"#94a3b8"}),borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return cid==="ctcoUK"?"£"+v:"€"+v}}}}}});
-  }
-  mkTco("ctcoUK",uk60);
-  mkTco("ctcoDE",de60);
+  // === FLEET ===
+  try{
+    var fd=INLINE_FLEET.brands;
+    var uk10=fd.filter(function(x){return x.market=="UK"}).sort(function(a,b){return b.total-a.total}).slice(0,10);
+    var de10=fd.filter(function(x){return x.market=="Germany"}).sort(function(a,b){return b.total-a.total}).slice(0,10);
+    document.getElementById("fkpi").innerHTML='<div class="kpi"><div class="lbl">UK Fleet Avg</div><div class="val">'+INLINE_FLEET.uk_fleet_avg+'%</div><div class="sub">of new car registrations</div></div><div class="kpi"><div class="lbl">DE Fleet Avg</div><div class="val">'+INLINE_FLEET.de_fleet_avg+'%</div><div class="sub">of new car registrations</div></div><div class="kpi"><div class="lbl">Top UK Fleet Brands</div><div class="val" style="font-size:16px">'+uk10.slice(0,3).map(function(x){return x.brand+' ('+x.fleet_pct+'%)'}).join(", ")+'</div></div><div class="kpi"><div class="lbl">Top DE Fleet Brands</div><div class="val" style="font-size:16px">'+de10.slice(0,3).map(function(x){return x.brand+' ('+x.fleet_pct+'%)'}).join(", ")+'</div></div>';
+    function mkFleet(cid,data,clr){
+      var ctx=document.getElementById(cid).getContext("2d");
+      var k="chart_"+cid;if(window[k])window[k].destroy();
+      window[k]=new Chart(ctx,{type:"bar",data:{labels:data.map(function(x){return x.brand}),datasets:[{label:"Fleet %",data:data.map(function(x){return x.fleet_pct}),backgroundColor:clr,borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{max:70,ticks:{callback:function(v){return v+"%"}}}}}});
+    }
+    mkFleet("fleetUK",uk10,"#2563eb");
+    mkFleet("fleetDE",de10,"#dc2626");
+  }catch(e){console.log("Fleet error:",e)}
 
-  var top=INLINE_FC.summary.slice(0,10);
-  var cs=["#2563eb","#dc2626","#16a34a","#8b5cf6","#ea580c","#0891b2","#d97706","#be185d","#4f46e5","#0d9488"];
-  var ds=top.map(function(s,i){var d=INLINE_FC.forecast.filter(function(f){return f.brand==s.brand&&f.market==s.market});return{label:s.brand+" ("+s.market+")",data:d.map(function(x){return x.forecast}),borderColor:cs[i],tension:.3,pointRadius:2};});
-  if(c5)c5.destroy();
-  c5=new Chart(document.getElementById("fcChart"),{type:"line",data:{labels:["Jul","Aug","Sep","Oct","Nov","Dec","Jan27"],datasets:ds},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8}}},scales:{y:{ticks:{callback:function(v){return K(v)}}}}}});
+  // === RESIDUAL ===
+  try{
+    var rd=INLINE_RESIDUAL.vehicles;
+    var ctxRes=document.getElementById("resBar").getContext("2d");
+    if(c1)c1.destroy();
+    c1=new Chart(ctxRes,{type:"bar",data:{labels:rd.map(function(x){return x.brand+" "+x.model}),datasets:[{label:"Residual 3yr %",data:rd.map(function(x){return x.residual_3yr}),backgroundColor:rd.map(function(x){return x.residual_3yr>45?"#16a34a":x.residual_3yr>38?"#ea580c":"#dc2626"}),borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{max:60,ticks:{callback:function(v){return v+"%"}}}}}});
+    var ctxIns=document.getElementById("insBar").getContext("2d");
+    if(c3)c3.destroy();
+    c3=new Chart(ctxIns,{type:"bar",data:{labels:rd.map(function(x){return x.brand+" "+x.model}),datasets:[{label:"UK Insurance Group",data:rd.map(function(x){return x.insurance_group_uk}),backgroundColor:"#2563eb",borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}});
+    document.getElementById("resTbl").innerHTML=rd.map(function(x){return'<tr><td style="padding:6px 12px;font-weight:600">'+x.brand+'</td><td style="padding:6px 12px">'+x.model+'</td><td style="padding:6px 12px;text-align:right;font-weight:600;color:'+(x.residual_3yr>45?"#16a34a":x.residual_3yr>38?"#ea580c":"#dc2626")+'">'+x.residual_3yr+'%</td><td style="padding:6px 12px;text-align:right">'+x.insurance_group_uk+'</td><td style="padding:6px 12px;text-align:right">'+x.insurance_group_de+'</td><td style="padding:6px 12px;font-size:10px;color:#64748b">'+x.market_position+'</td></tr>'}).join("");
+  }catch(e){console.log("Residual error:",e)}
 
-  var sent=INLINE_SOCIAL.sentiment_summary||[];
-  document.getElementById("skpi").innerHTML=sent.slice(0,4).map(function(b){return'<div class="kpi"><div class="lbl">'+b.brand+'</div><div class="val">'+b.positive+'%</div><div class="sub">Positive · '+b.total_mentions+' mentions</div></div>'}).join("");
-  if(c6)c6.destroy();
-  c6=new Chart(document.getElementById("sentBar"),{type:"bar",data:{labels:sent.map(function(s){return s.brand}),datasets:[{label:"Positive %",data:sent.map(function(s){return s.positive}),backgroundColor:"#16a34a",borderRadius:3},{label:"Neutral %",data:sent.map(function(s){return s.neutral}),backgroundColor:"#94a3b8",borderRadius:3},{label:"Negative %",data:sent.map(function(s){return s.negative}),backgroundColor:"#dc2626",borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8}}},scales:{x:{stacked:true},y:{stacked:true,max:100}}}});
-  var ch=INLINE_SOCIAL.top_channels||[];
-  var ctx=document.getElementById("chBar").getContext("2d");c4=new Chart(ctx,{type:"bar",data:{labels:ch.map(function(c){return c.name}),datasets:[{label:"Avg Views (K)",data:ch.map(function(c){return Math.round(c.avg_views/1000)}),backgroundColor:"#8b5cf6",borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}});
+  // === TCO ===
+  try{
+    var uk60=INLINE_TCO.filter(function(t){return t.market=="UK"&&t.home_charging_pct==60}).sort(function(a,b){return a.monthly_tco-b.monthly_tco});
+    var de60=INLINE_TCO.filter(function(t){return t.market=="Germany"&&t.home_charging_pct==60}).sort(function(a,b){return a.monthly_tco-b.monthly_tco});
+    function mkTco(cid,data){
+      var ctx=document.getElementById(cid).getContext("2d");
+      var k="chart_"+cid;if(window[k])window[k].destroy();
+      window[k]=new Chart(ctx,{type:"bar",data:{labels:data.map(function(d){return d.vehicle}),datasets:[{label:"Mth TCO",data:data.map(function(d){return d.monthly_tco}),backgroundColor:data.map(function(_,i){return i<3?"#2563eb":i<5?"#8b5cf6":"#94a3b8"}),borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{callback:function(v){return cid==="ctcoUK"?"\u00a3"+v:"\u20ac"+v}}}}}});
+    }
+    mkTco("ctcoUK",uk60);
+    mkTco("ctcoDE",de60);
+  }catch(e){console.log("TCO error:",e)}
+
+  // === FORECAST ===
+  try{
+    var top=INLINE_FC.summary.slice(0,10);
+    var cs=["#2563eb","#dc2626","#16a34a","#8b5cf6","#ea580c","#0891b2","#d97706","#be185d","#4f46e5","#0d9488"];
+    var ds=top.map(function(s,i){var d=INLINE_FC.forecast.filter(function(f){return f.brand==s.brand&&f.market==s.market});return{label:s.brand+" ("+s.market+")",data:d.map(function(x){return x.forecast}),borderColor:cs[i],tension:.3,pointRadius:2};});
+    if(c5)c5.destroy();
+    c5=new Chart(document.getElementById("fcChart"),{type:"line",data:{labels:["Jul","Aug","Sep","Oct","Nov","Dec","Jan27"],datasets:ds},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8}}},scales:{y:{ticks:{callback:function(v){return K(v)}}}}}});
+  }catch(e){console.log("Forecast error:",e)}
+
+  // === SENTIMENT ===
+  try{
+    var sent=INLINE_SOCIAL.sentiment_summary||[];
+    document.getElementById("skpi").innerHTML=sent.slice(0,4).map(function(b){return'<div class="kpi"><div class="lbl">'+b.brand+'</div><div class="val">'+b.positive+'%</div><div class="sub">Positive · '+b.total_mentions+' mentions</div></div>'}).join("");
+    if(c6)c6.destroy();
+    c6=new Chart(document.getElementById("sentBar"),{type:"bar",data:{labels:sent.map(function(s){return s.brand}),datasets:[{label:"Pos %",data:sent.map(function(s){return s.positive}),backgroundColor:"#16a34a",borderRadius:3},{label:"Neu %",data:sent.map(function(s){return s.neutral}),backgroundColor:"#94a3b8",borderRadius:3},{label:"Neg %",data:sent.map(function(s){return s.negative}),backgroundColor:"#dc2626",borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true,boxWidth:8}}},scales:{x:{stacked:true},y:{stacked:true,max:100}}}});
+    var ch=INLINE_SOCIAL.top_channels||[];
+    var ctxCh=document.getElementById("chBar").getContext("2d");
+    c4=new Chart(ctxCh,{type:"bar",data:{labels:ch.map(function(c){return c.name}),datasets:[{label:"Avg Views (K)",data:ch.map(function(c){return Math.round(c.avg_views/1000)}),backgroundColor:"#8b5cf6",borderRadius:3}]},options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}});
+  }catch(e){console.log("Sentiment error:",e)}
 }
-init();
+init();;
 </script>
 <div style="max-width:1320px;margin:0 auto;padding:0 24px 20px;font-size:10px;color:var(--muted);border-top:1px solid var(--border);padding-top:16px;margin-top:20px"><strong>Data Provenance</strong> &nbsp;|&nbsp;Fleet: <a href="https://www.smmt.co.uk/" style="color:var(--uk)">SMMT</a>/<a href="https://www.kba.de/" style="color:var(--de)">KBA</a> &nbsp;|&nbsp; Residual: <a href="https://www.cap-hpi.com/" style="color:var(--uk)">CAP HPI</a>/<a href="https://www.eurotax.com/" style="color:var(--de)">Eurotax</a> estimates &nbsp;|&nbsp; Infrastructure: <a href="https://openchargemap.org/" style="color:var(--uk)">OpenChargeMap</a> &nbsp;|&nbsp;TCO: proprietary model &nbsp;|&nbsp;Forecast: linear trend on <a href="https://www.smmt.co.uk/" style="color:var(--uk)">SMMT</a> / <a href="https://www.kba.de/" style="color:var(--de)">KBA</a> data &nbsp;|&nbsp;Sentiment: <a href="https://developers.google.com/youtube/v3" style="color:var(--uk)">YouTube API</a> + lexicon NLP &nbsp;|&nbsp;Updates via <a href="https://github.com/ZephyruykkO/auto-export-intelligence/blob/main/run_all.py" style="color:var(--uk)">run_all.py</a></div>
 </body>
