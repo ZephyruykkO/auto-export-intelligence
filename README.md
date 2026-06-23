@@ -1,4 +1,4 @@
-# 汽车出海数据看板 / Auto Export Dashboard
+# 汽车出海数据 /  Export Dashboard
 
 爬取英国与德国市场 2025-2026 年汽车品牌月度销量数据，并以交互式看板展示。
 
