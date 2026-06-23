@@ -14,31 +14,59 @@
   "sentiment_summary": [
     {
       "brand": "BYD",
-      "positive": 52,
+      "total_mentions": 28,
+      "positive": 54,
+      "negative": 16,
       "neutral": 30,
-      "negative": 18,
-      "total": 100
+      "examples": [
+        {
+          "text": "byd atto 3 review 2025",
+          "sentiment": "positive",
+          "score": 1.2
+        }
+      ]
     },
     {
       "brand": "MG",
-      "positive": 48,
-      "neutral": 35,
-      "negative": 17,
-      "total": 100
+      "total_mentions": 22,
+      "positive": 50,
+      "negative": 18,
+      "neutral": 32,
+      "examples": [
+        {
+          "text": "mg4 ev review 2025",
+          "sentiment": "positive",
+          "score": 0.8
+        }
+      ]
     },
     {
       "brand": "NIO",
-      "positive": 45,
-      "neutral": 38,
-      "negative": 17,
-      "total": 100
+      "total_mentions": 12,
+      "positive": 42,
+      "negative": 25,
+      "neutral": 33,
+      "examples": [
+        {
+          "text": "nio et5 review europe",
+          "sentiment": "neutral",
+          "score": 0.2
+        }
+      ]
     },
     {
       "brand": "Tesla",
-      "positive": 60,
-      "neutral": 25,
-      "negative": 15,
-      "total": 100
+      "total_mentions": 18,
+      "positive": 61,
+      "negative": 11,
+      "neutral": 28,
+      "examples": [
+        {
+          "text": "tesla comparison",
+          "sentiment": "positive",
+          "score": 1.1
+        }
+      ]
     }
   ],
   "top_channels": [
@@ -69,5 +97,6 @@
     "Chinese EV build quality 2026",
     "NIO battery swap Europe",
     "BYD Seal price Germany"
-  ]
+  ],
+  "sentiment_updated": "2026-06-23T07:10:16.579Z"
 }
