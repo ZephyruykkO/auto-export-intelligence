@@ -1,0 +1,73 @@
+{
+  "updated": "2026-06-23T00:00:00Z",
+  "source": "YouTube Data API v3 — sample data, run scraper for live data",
+  "total_videos": 86,
+  "total_views": 4250000,
+  "brand_mentions": {
+    "BYD": 28,
+    "MG": 22,
+    "NIO": 12,
+    "Tesla": 18,
+    "VW": 8,
+    "BMW": 6
+  },
+  "sentiment_summary": [
+    {
+      "brand": "BYD",
+      "positive": 52,
+      "neutral": 30,
+      "negative": 18,
+      "total": 100
+    },
+    {
+      "brand": "MG",
+      "positive": 48,
+      "neutral": 35,
+      "negative": 17,
+      "total": 100
+    },
+    {
+      "brand": "NIO",
+      "positive": 45,
+      "neutral": 38,
+      "negative": 17,
+      "total": 100
+    },
+    {
+      "brand": "Tesla",
+      "positive": 60,
+      "neutral": 25,
+      "negative": 15,
+      "total": 100
+    }
+  ],
+  "top_channels": [
+    {
+      "name": "carwow",
+      "videos": 18,
+      "avg_views": 320000
+    },
+    {
+      "name": "What Car?",
+      "videos": 14,
+      "avg_views": 180000
+    },
+    {
+      "name": "Auto Bild",
+      "videos": 12,
+      "avg_views": 95000
+    },
+    {
+      "name": "Fully Charged Show",
+      "videos": 10,
+      "avg_views": 210000
+    }
+  ],
+  "trending_topics": [
+    "BYD Atto 3 UK review",
+    "MG4 vs VW ID.3 comparison",
+    "Chinese EV build quality 2026",
+    "NIO battery swap Europe",
+    "BYD Seal price Germany"
+  ]
+}
