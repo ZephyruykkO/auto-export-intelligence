@@ -1,0 +1,28 @@
+# Web Scraping
+crawlee>=0.5.0
+playwright>=1.48.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.0
+
+# Social Media APIs
+google-api-python-client>=2.140.0      # YouTube Data API v3
+praw>=7.7.0                             # Reddit API
+
+# Analysis & ML
+prophet>=1.1.0                          # Time-series forecasting
+transformers>=4.45.0                    # NLP sentiment analysis
+spacy>=3.8.0                            # Multi-language NLP (German)
+torch>=2.4.0                            # ML backend
+
+# Dashboard & Reporting
+streamlit>=1.40.0                       # Python-native analytics dashboard
+
+# Utilities
+python-dotenv>=1.0.0
+httpx>=0.27.0
+requests>=2.31.0
