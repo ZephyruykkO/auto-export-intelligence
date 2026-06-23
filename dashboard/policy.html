@@ -1,134 +1,66 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>政策跟踪 — 英德汽车出海</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Policy Tracker — UK &amp; Germany</title>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#f8f9fa;--card:#fff;--text:#1a1a2e;--muted:#6b7280;--border:#e5e7eb;--uk:#2563eb;--de:#dc2626;--eu:#7c3aed;--intl:#059669}
-body{font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text)}
-.app{max-width:1100px;margin:0 auto;padding:24px 20px 40px}
-.header{margin-bottom:24px}
-.header h1{font-size:22px;font-weight:700}.header .sub{font-size:13px;color:var(--muted);margin-top:4px}
-.controls{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
-.ctrl-btn{padding:6px 14px;font-size:12px;font-weight:600;border:1px solid var(--border);border-radius:6px;background:var(--card);cursor:pointer;color:var(--muted);transition:all .15s}
-.ctrl-btn:hover{border-color:#94a3b8;color:var(--text)}
-.ctrl-btn.active{background:var(--text);color:#fff;border-color:var(--text)}
-.ctrl-btn.active.uk{background:var(--uk);border-color:var(--uk)}
-.ctrl-btn.active.de{background:var(--de);border-color:var(--de)}
-.ctrl-btn.active.eu{background:var(--eu);border-color:var(--eu)}
-.ctrl-btn.active.intl{background:var(--intl);border-color:var(--intl)}
-.last-updated{font-size:12px;color:var(--muted);margin-left:auto;padding:6px 0}
-.policy-card{background:var(--card);border-radius:8px;padding:20px;border:1px solid var(--border);margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-.policy-card:hover{border-color:#94a3b8}
-.policy-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
-.policy-title{font-size:16px;font-weight:700;flex:1}
-.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap}
-.badge.uk{background:#dbeafe;color:var(--uk)}
-.badge.de{background:#fce7f3;color:var(--de)}
-.badge.eu{background:#ede9fe;color:var(--eu)}
-.badge.intl{background:#d1fae5;color:var(--intl)}
-.badge.status-active{background:#d1fae5;color:#065f46}
-.badge.status-monitor{background:#fef3c7;color:#92400e}
-.policy-meta{font-size:12px;color:var(--muted);margin-bottom:8px}
-.policy-summary{font-size:13px;line-height:1.7;margin-bottom:10px}
-.impact-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.impact-box{font-size:12px}
-.impact-box .label{font-weight:700;display:flex;align-items:center;gap:4px;margin-bottom:2px}
-.impact-box .label .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
-.impact-box .label .dot.uk{background:var(--uk)}.impact-box .label .dot.de{background:var(--de)}
-.policy-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.policy-links a{font-size:12px;color:var(--uk);text-decoration:none;padding:3px 10px;border:1px solid var(--border);border-radius:4px;transition:all .15s}
-.policy-links a:hover{background:#eff6ff;border-color:var(--uk)}
-.empty{text-align:center;padding:60px;color:var(--muted)}
-.footer{text-align:center;padding:20px;font-size:11px;color:var(--muted)}
-@media(max-width:700px){.impact-row{grid-template-columns:1fr}}
+:root{--bg:#f0f2f5;--surface:#fff;--text:#0f172a;--muted:#64748b;--border:#e2e8f0;--uk:#2563eb;--de:#dc2626;--eu:#7c3aed;--intl:#059669;--warning:#d97706}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font:13px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+.app{max-width:1100px;margin:0 auto;padding:28px 24px 40px}
+.topbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:20px}
+.topbar h1{font-size:20px;font-weight:700}
+.topbar .sub{font-size:12px;color:var(--muted)}
+.filter-row{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;align-items:center}
+.fbtn{padding:6px 14px;font-size:11px;font-weight:600;border:1px solid var(--border);border-radius:7px;background:var(--surface);cursor:pointer;color:var(--muted);transition:all .15s}
+.fbtn:hover{border-color:#94a3b8}
+.fbtn.on{color:#fff}
+.fbtn.on.all{background:var(--text);border-color:var(--text)}
+.fbtn.on.uk{background:var(--uk);border-color:var(--uk)}
+.fbtn.on.de{background:var(--de);border-color:var(--de)}
+.fbtn.on.eu{background:var(--eu);border-color:var(--eu)}
+.fbtn.on.intl{background:var(--intl);border-color:var(--intl)}
+.updated{font-size:11px;color:var(--muted);margin-left:auto}
+.card{background:var(--surface);border-radius:10px;padding:20px;border:1px solid var(--border);margin-bottom:12px;transition:all .15s}
+.card:hover{border-color:#94a3b8}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-top h3{font-size:15px;font-weight:700;flex:1}
+.badge{display:inline-block;padding:2px 7px;border-radius:8px;font-size:10px;font-weight:700;white-space:nowrap}
+.badge.uk{background:#dbeafe;color:var(--uk)}.badge.de{background:#fce7f3;color:var(--de)}
+.badge.eu{background:#ede9fe;color:var(--eu)}.badge.intl{background:#d1fae5;color:var(--intl)}
+.badge.active{background:#d1fae5;color:#065f46}.badadge.new{background:#fef3c7;color:var(--warning)}
+.badge.warn{background:#fef3c7;color:var(--warning)}
+.meta{font-size:11px;color:var(--muted);margin-bottom:8px}
+.summary{font-size:12px;line-height:1.65;margin-bottom:10px}
+.impact{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.ib{font-size:11px}.ib .hl{font-weight:700;margin-bottom:2px}.ib .hl .dot{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px}
+.ib .hl .dot.uk{background:var(--uk)}.ib .hl .dot.de{background:var(--de)}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.links a{font-size:11px;color:var(--uk);text-decoration:none;padding:3px 9px;border:1px solid var(--border);border-radius:5px;transition:all .12s}
+.links a:hover{background:#eff6ff;border-color:var(--uk)}
+@media(max-width:640px){.impact{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="app">
-<div class="header">
-<h1>政策合规追踪看板</h1>
-<div class="sub">EU / UK / Germany 汽车出海关键政策 — 反补贴关税 · ZEV积分 · BIK · 网络安全 · 电池法规</div>
-</div>
-<div class="controls">
-<button class="ctrl-btn active" data-filter="all">全部</button>
-<button class="ctrl-btn" data-filter="UK">UK</button>
-<button class="ctrl-btn" data-filter="Germany">Germany</button>
-<button class="ctrl-btn" data-filter="EU">EU</button>
-<button class="ctrl-btn" data-filter="International">International</button>
-<span class="last-updated" id="updated"></span>
+<div class="topbar"><div><h1>Policy Compliance Tracker</h1><div class="sub">EU / UK / Germany automotive entry policy — active &amp; forward-looking</div></div></div>
+<div class="filter-row">
+<button class="fbtn on all" data-j="all">All</button>
+<button class="fbtn" data-j="UK">UK</button>
+<button class="fbtn" data-j="Germany">Germany</button>
+<button class="fbtn" data-j="EU">EU</button>
+<button class="fbtn" data-j="International">Intl</button>
+<span class="updated" id="upd"></span>
 </div>
 <div id="content"></div>
-<div class="footer">
-数据来源: <a href="https://eur-lex.europa.eu/">EUR-Lex</a> · <a href="https://www.gov.uk/">GOV.UK</a> · <a href="https://unece.org/">UNECE</a> · <a href="https://www.acea.auto/">ACEA</a> · 爬虫自动更新 · 最后爬取: <span id="crawlTime">—</span>
-</div>
 </div>
 <script>
-var allTopics = [];
-var currentFilter = "all";
-
-async function init() {
-try {
-var r = await fetch("policy-data.json");
-var d = await r.json();
-allTopics = d.topics;
-document.getElementById("updated").textContent = "更新于: " + (d.updated || "—").slice(0,10);
-} catch(e) {
-document.getElementById("content").innerHTML = '<div class="empty">无法加载政策数据 (data.json)，请运行爬虫: python scrapers/policy/eu_uk_policy.py</div>';
-return;
-}
-render();
-}
-
-function render() {
-var filtered = currentFilter === "all" ? allTopics : allTopics.filter(function(t) {
-return t.jurisdiction.indexOf(currentFilter) >= 0;
-});
-if (!filtered.length) {
-document.getElementById("content").innerHTML = '<div class="empty">当前筛选无匹配政策</div>';
-return;
-}
-var html = "";
-filtered.forEach(function(t) {
-var jCls = t.jurisdiction.indexOf("UK") >= 0 ? "uk" : t.jurisdiction.indexOf("Germany") >= 0 ? "de" : t.jurisdiction.indexOf("EU") >= 0 ? "eu" : "intl";
-var sCls = t.status.indexOf("效") >= 0 || t.status.indexOf("行") >= 0 || t.status.indexOf("制") >= 0 ? "status-active" : "status-monitor";
-var linksHtml = (t.links || []).map(function(l) {
-return '<a href="' + l.url + '" target="_blank">' + l.text + '</a>';
-}).join("");
-html += '<div class="policy-card">' +
-'<div class="policy-header">' +
-'<div class="policy-title">' + t.title + '</div>' +
-'<div style="display:flex;gap:4px">' +
-'<span class="badge ' + jCls + '">' + t.jurisdiction + '</span>' +
-'<span class="badge ' + sCls + '">' + t.status + '</span>' +
-'</div>' +
-'</div>' +
-'<div class="policy-meta">生效日期: ' + (t.effective_date || "—") + ' · 关注点: ' + (t.monitoring || "—") + '</div>' +
-'<div class="policy-summary">' + t.summary + '</div>' +
-'<div class="impact-row">' +
-'<div class="impact-box"><div class="label"><span class="dot uk"></span> UK 影响</div>' + (t.impact_uk || "—") + '</div>' +
-'<div class="impact-box"><div class="label"><span class="dot de"></span> DE 影响</div>' + (t.impact_de || "—") + '</div>' +
-'</div>' +
-(linksHtml ? '<div class="policy-links">' + linksHtml + '</div>' : '') +
-'</div>';
-});
-document.getElementById("content").innerHTML = html;
-}
-
-document.querySelectorAll(".ctrl-btn").forEach(function(b) {
-b.addEventListener("click", function() {
-document.querySelectorAll(".ctrl-btn").forEach(function(x) { x.classList.remove("active","uk","de","eu","intl"); });
-var f = b.dataset.filter;
-currentFilter = f;
-var cls = f === "UK" ? "uk" : f === "Germany" ? "de" : f === "EU" ? "eu" : f === "International" ? "intl" : "";
-b.classList.add("active", cls);
-render();
-});
-});
-
-init();
+var DATA=[],j="all";
+async function I(){try{var r=await fetch("policy-data.json");var d=await r.json();DATA=d.topics;document.getElementById("upd").textContent="Updated: "+(d.updated||"--").slice(0,10)}catch(e){document.getElementById("content").innerHTML='<div style="text-align:center;padding:60px;color:#64748b">Unable to load policy data</div>';return}R()}
+function R(){var f=j=="all"?DATA:DATA.filter(function(t){return t.jurisdiction.indexOf(j)>=0});var h="";f.forEach(function(t){var jc=t.jurisdiction.indexOf("UK")>=0?"uk":t.jurisdiction.indexOf("Germany")>=0?"de":t.jurisdiction.indexOf("EU")>=0?"eu":"intl";var sc=t.phase=="2026新升级"?"new":t.phase=="生效中"?"active":"warn";var lh=(t.links||[]).map(function(l){return'<a href="'+l.url+'" target="_blank">'+l.text+'</a>'}).join("");h+='<div class="card"><div class="card-top"><h3>'+t.title+'</h3><div style="display:flex;gap:4px;flex-shrink:0"><span class="badge '+jc+'">'+t.jurisdiction+'</span><span class="badge '+sc+'">'+(t.phase||t.status)+'</span></div></div><div class="meta">Since: '+(t.effective_date||"--")+' · Watch: '+(t.monitoring||"--")+'</div><div class="summary">'+t.summary+'</div><div class="impact"><div class="ib"><div class="hl"><span class="dot uk"></span>UK Impact</div>'+(t.impact_uk||"--")+'</div><div class="ib"><div class="hl"><span class="dot de"></span>DE Impact</div>'+(t.impact_de||"--")+'</div></div>'+(lh?'<div class="links">'+lh+'</div>':'')+'</div>'});document.getElementById("content").innerHTML=h}
+document.querySelectorAll(".fbtn").forEach(function(b){b.onclick=function(){document.querySelectorAll(".fbtn").forEach(function(x){x.classList.remove("on","all","uk","de","eu","intl")});j=b.dataset.j;var c=j=="UK"?"uk":j=="Germany"?"de":j=="EU"?"eu":j=="International"?"intl":"all";b.classList.add("on",c);R()}});
+I();
 </script>
 </body>
 </html>
