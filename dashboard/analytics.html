@@ -29,23 +29,25 @@ body{font:13px/1.5 Inter,-apple-system,sans-serif;background:var(--bg);color:var
 <div class="app">
 <div class="topbar"><h1>Analytics Dashboard</h1><div class="sub">Infrastructure · TCO · Sales Forecast · Consumer Sentiment</div></div>
 
-<div class="section"><h2>Charging Infrastructure (2026)</h2>
+<div class="section"><h2>Charging Infrastructure (2026) <span style="font-size:10px;color:var(--muted);font-weight:400">— Source: OpenChargeMap API</span></h2>
 <div class="row4" id="ikpi"></div>
 <div class="c2">
 <div class="pnl"><h3>UK Regional Stations</h3><div class="wrp"><canvas id="cukReg"></canvas></div></div>
 <div class="pnl"><h3>Germany Regional Stations</h3><div class="wrp"><canvas id="cdeReg"></canvas></div></div>
 </div></div>
 
-<div class="section"><h2>TCO Comparison — Monthly Cost (60% home charging)</h2>
+<div class="section"><h2>TCO Analysis <span style="font-size:10px;color:var(--muted);font-weight:400">— Model: 5yr linear depreciation + market parameters</span></h2>
+<h2 style="font-size:14px;margin-top:-14px">TCO Comparison — Monthly Cost (60% home charging)</h2>
 <div class="c2">
 <div class="pnl"><h3>UK Market</h3><div class="wrp"><canvas id="ctcoUK"></canvas></div></div>
 <div class="pnl"><h3>Germany Market</h3><div class="wrp"><canvas id="ctcoDE"></canvas></div></div>
 </div></div>
 
-<div class="section"><h2>H2 2026 Sales Forecast — Top 10 Brands</h2>
+<div class="section"><h2>H2 2026 Sales Forecast <span style="font-size:10px;color:var(--muted);font-weight:400">— Model: 3-month trailing avg + 1-2% monthly growth</span></h2>
+<h2 style="font-size:14px;margin-top:-14px">H2 2026 Sales Forecast — Top 10 Brands</h2>
 <div class="pnl"><div class="wrp" style="height:340px"><canvas id="fcChart"></canvas></div></div></div>
 
-<div class="section"><h2>YouTube Brand Sentiment</h2>
+<div class="section"><h2>YouTube Brand Sentiment <span style="font-size:10px;color:var(--muted);font-weight:400">— Source: YouTube Data API v3 · Channels: carwow, What Car?, Auto Bild, GRIP · NLP: lexicon + negation detection</span></h2>
 <div class="row4" id="skpi"></div>
 <div class="c2">
 <div class="pnl"><h3>Sentiment Breakdown</h3><div class="wrp"><canvas id="sentBar"></canvas></div></div>
@@ -97,5 +99,6 @@ function init(){
 }
 init();
 </script>
+<div style="max-width:1320px;margin:0 auto;padding:0 24px 20px;font-size:10px;color:var(--muted);border-top:1px solid var(--border);padding-top:16px;margin-top:20px"><strong>Data Provenance</strong> &nbsp;|&nbsp;Infrastructure: <a href="https://openchargemap.org/" style="color:var(--uk)">OpenChargeMap</a> &nbsp;|&nbsp;TCO: proprietary model &nbsp;|&nbsp;Forecast: linear trend on <a href="https://www.smmt.co.uk/" style="color:var(--uk)">SMMT</a> / <a href="https://www.kba.de/" style="color:var(--de)">KBA</a> data &nbsp;|&nbsp;Sentiment: <a href="https://developers.google.com/youtube/v3" style="color:var(--uk)">YouTube API</a> + lexicon NLP &nbsp;|&nbsp;Updates via <a href="https://github.com/ZephyruykkO/auto-export-intelligence/blob/main/run_all.py" style="color:var(--uk)">run_all.py</a></div>
 </body>
 </html>
