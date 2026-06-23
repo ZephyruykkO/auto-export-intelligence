@@ -1,0 +1,87 @@
+{
+  "updated": "2026-06-23T07:29:35.080Z",
+  "source": "Estimated 3-year residual values. Live data requires CAP HPI (UK) / Eurotax Schwacke (DE) subscription.",
+  "note": "Chinese brand residuals estimated at 35-42% vs European benchmarks at 50-55%. Insurance group premiums reflect ABI/Eurotax risk assessment.",
+  "vehicles": [
+    {
+      "brand": "BYD",
+      "model": "Atto 3",
+      "residual_3yr": 38,
+      "insurance_group_uk": 28,
+      "insurance_group_de": 22,
+      "market_position": "Budget BEV SUV"
+    },
+    {
+      "brand": "BYD",
+      "model": "Seal",
+      "residual_3yr": 40,
+      "insurance_group_uk": 35,
+      "insurance_group_de": 28,
+      "market_position": "Premium BEV Sedan"
+    },
+    {
+      "brand": "MG",
+      "model": "MG4 EV",
+      "residual_3yr": 42,
+      "insurance_group_uk": 22,
+      "insurance_group_de": 18,
+      "market_position": "Budget BEV Hatch"
+    },
+    {
+      "brand": "MG",
+      "model": "ZS EV",
+      "residual_3yr": 44,
+      "insurance_group_uk": 25,
+      "insurance_group_de": 20,
+      "market_position": "Budget BEV SUV"
+    },
+    {
+      "brand": "NIO",
+      "model": "ET5",
+      "residual_3yr": 36,
+      "insurance_group_uk": 40,
+      "insurance_group_de": 32,
+      "market_position": "Premium BEV Sedan"
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model Y",
+      "residual_3yr": 55,
+      "insurance_group_uk": 44,
+      "insurance_group_de": 38,
+      "market_position": "Premium BEV SUV"
+    },
+    {
+      "brand": "VW",
+      "model": "ID.4",
+      "residual_3yr": 52,
+      "insurance_group_uk": 28,
+      "insurance_group_de": 24,
+      "market_position": "Premium BEV SUV"
+    },
+    {
+      "brand": "MG",
+      "model": "MG5",
+      "residual_3yr": 40,
+      "insurance_group_uk": 24,
+      "insurance_group_de": 20,
+      "market_position": "Budget BEV Estate"
+    },
+    {
+      "brand": "BYD",
+      "model": "Dolphin",
+      "residual_3yr": 37,
+      "insurance_group_uk": 26,
+      "insurance_group_de": 21,
+      "market_position": "Budget BEV Hatch"
+    },
+    {
+      "brand": "XPeng",
+      "model": "G6",
+      "residual_3yr": 34,
+      "insurance_group_uk": 38,
+      "insurance_group_de": 30,
+      "market_position": "Premium BEV SUV"
+    }
+  ]
+}
