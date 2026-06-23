@@ -1,0 +1,549 @@
+{
+  "updated": "2026-06-23T07:29:35.074Z",
+  "source": "SMMT / KBA registration data + fleet ratio estimation model",
+  "note": "Exact fleet/retail splits require paid SMMT/KBA subscription. These are estimates based on known market averages.",
+  "uk_fleet_avg": 55,
+  "de_fleet_avg": 40,
+  "brands": [
+    {
+      "brand": "Volkswagen",
+      "market": "Germany",
+      "total": 752398,
+      "fleet": 413819,
+      "retail": 338579,
+      "fleet_pct": 55,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "market": "Germany",
+      "total": 393521,
+      "fleet": 236113,
+      "retail": 157408,
+      "fleet_pct": 60,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "BMW",
+      "market": "Germany",
+      "total": 362787,
+      "fleet": 224928,
+      "retail": 137859,
+      "fleet_pct": 62,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Audi",
+      "market": "Germany",
+      "total": 327153,
+      "fleet": 212649,
+      "retail": 114504,
+      "fleet_pct": 65,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Skoda",
+      "market": "Germany",
+      "total": 257123,
+      "fleet": 115705,
+      "retail": 141418,
+      "fleet_pct": 45,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Opel",
+      "market": "Germany",
+      "total": 235647,
+      "fleet": 136675,
+      "retail": 98972,
+      "fleet_pct": 58,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Volkswagen",
+      "market": "UK",
+      "total": 210782,
+      "fleet": 94852,
+      "retail": 115930,
+      "fleet_pct": 45,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Ford",
+      "market": "UK",
+      "total": 181511,
+      "fleet": 90756,
+      "retail": 90755,
+      "fleet_pct": 50,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Ford",
+      "market": "Germany",
+      "total": 181223,
+      "fleet": 94236,
+      "retail": 86987,
+      "fleet_pct": 52,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "BMW",
+      "market": "UK",
+      "total": 174513,
+      "fleet": 113433,
+      "retail": 61080,
+      "fleet_pct": 65,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Audi",
+      "market": "UK",
+      "total": 164754,
+      "fleet": 107090,
+      "retail": 57664,
+      "fleet_pct": 65,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Hyundai",
+      "market": "Germany",
+      "total": 163713,
+      "fleet": 65485,
+      "retail": 98228,
+      "fleet_pct": 40,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Seat",
+      "market": "Germany",
+      "total": 145093,
+      "fleet": 50783,
+      "retail": 94310,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Toyota",
+      "market": "UK",
+      "total": 142782,
+      "fleet": 49974,
+      "retail": 92808,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Kia",
+      "market": "UK",
+      "total": 136119,
+      "fleet": 43558,
+      "retail": 92561,
+      "fleet_pct": 32,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Toyota",
+      "market": "Germany",
+      "total": 134183,
+      "fleet": 50990,
+      "retail": 83193,
+      "fleet_pct": 38,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "market": "UK",
+      "total": 126535,
+      "fleet": 75921,
+      "retail": 50614,
+      "fleet_pct": 60,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Hyundai",
+      "market": "UK",
+      "total": 126263,
+      "fleet": 47980,
+      "retail": 78283,
+      "fleet_pct": 38,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Nissan",
+      "market": "UK",
+      "total": 112492,
+      "fleet": 44997,
+      "retail": 67495,
+      "fleet_pct": 40,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Vauxhall",
+      "market": "UK",
+      "total": 111232,
+      "fleet": 61178,
+      "retail": 50054,
+      "fleet_pct": 55,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Renault",
+      "market": "Germany",
+      "total": 110229,
+      "fleet": 46296,
+      "retail": 63933,
+      "fleet_pct": 42,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Kia",
+      "market": "Germany",
+      "total": 107914,
+      "fleet": 37770,
+      "retail": 70144,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Skoda",
+      "market": "UK",
+      "total": 99976,
+      "fleet": 41990,
+      "retail": 57986,
+      "fleet_pct": 42,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Peugeot",
+      "market": "UK",
+      "total": 95640,
+      "fleet": 33474,
+      "retail": 62166,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Dacia",
+      "market": "Germany",
+      "total": 93932,
+      "fleet": 18786,
+      "retail": 75146,
+      "fleet_pct": 20,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "MG",
+      "market": "UK",
+      "total": 90992,
+      "fleet": 18198,
+      "retail": 72794,
+      "fleet_pct": 20,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Tesla",
+      "market": "Germany",
+      "total": 88319,
+      "fleet": 37094,
+      "retail": 51225,
+      "fleet_pct": 42,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Fiat",
+      "market": "Germany",
+      "total": 80750,
+      "fleet": 24225,
+      "retail": 56525,
+      "fleet_pct": 30,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Tesla",
+      "market": "UK",
+      "total": 75361,
+      "fleet": 30144,
+      "retail": 45217,
+      "fleet_pct": 40,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Peugeot",
+      "market": "Germany",
+      "total": 73503,
+      "fleet": 27931,
+      "retail": 45572,
+      "fleet_pct": 38,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Volvo",
+      "market": "UK",
+      "total": 67049,
+      "fleet": 36877,
+      "retail": 30172,
+      "fleet_pct": 55,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Citroen",
+      "market": "Germany",
+      "total": 64554,
+      "fleet": 22594,
+      "retail": 41960,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Mazda",
+      "market": "Germany",
+      "total": 58098,
+      "fleet": 17429,
+      "retail": 40669,
+      "fleet_pct": 30,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "MINI",
+      "market": "UK",
+      "total": 56149,
+      "fleet": 14037,
+      "retail": 42112,
+      "fleet_pct": 25,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Volvo",
+      "market": "Germany",
+      "total": 56071,
+      "fleet": 32521,
+      "retail": 23550,
+      "fleet_pct": 58,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Land Rover",
+      "market": "UK",
+      "total": 51076,
+      "fleet": 25538,
+      "retail": 25538,
+      "fleet_pct": 50,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "MINI",
+      "market": "Germany",
+      "total": 48538,
+      "fleet": 13591,
+      "retail": 34947,
+      "fleet_pct": 28,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Porsche",
+      "market": "Germany",
+      "total": 45906,
+      "fleet": 20658,
+      "retail": 25248,
+      "fleet_pct": 45,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Seat",
+      "market": "UK",
+      "total": 44492,
+      "fleet": 13348,
+      "retail": 31144,
+      "fleet_pct": 30,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Cupra",
+      "market": "Germany",
+      "total": 42045,
+      "fleet": 11773,
+      "retail": 30272,
+      "fleet_pct": 28,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Renault",
+      "market": "UK",
+      "total": 39556,
+      "fleet": 13845,
+      "retail": 25711,
+      "fleet_pct": 35,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Suzuki",
+      "market": "Germany",
+      "total": 38235,
+      "fleet": 9559,
+      "retail": 28676,
+      "fleet_pct": 25,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Mazda",
+      "market": "UK",
+      "total": 37431,
+      "fleet": 10481,
+      "retail": 26950,
+      "fleet_pct": 28,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Honda",
+      "market": "UK",
+      "total": 33144,
+      "fleet": 9943,
+      "retail": 23201,
+      "fleet_pct": 30,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Dacia",
+      "market": "UK",
+      "total": 30002,
+      "fleet": 5400,
+      "retail": 24602,
+      "fleet_pct": 18,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Land Rover",
+      "market": "Germany",
+      "total": 28795,
+      "fleet": 14398,
+      "retail": 14397,
+      "fleet_pct": 50,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Citroen",
+      "market": "UK",
+      "total": 27005,
+      "fleet": 8102,
+      "retail": 18903,
+      "fleet_pct": 30,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Honda",
+      "market": "Germany",
+      "total": 26219,
+      "fleet": 8390,
+      "retail": 17829,
+      "fleet_pct": 32,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Suzuki",
+      "market": "UK",
+      "total": 25615,
+      "fleet": 6404,
+      "retail": 19211,
+      "fleet_pct": 25,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Nissan",
+      "market": "Germany",
+      "total": 21145,
+      "fleet": 8458,
+      "retail": 12687,
+      "fleet_pct": 40,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Cupra",
+      "market": "UK",
+      "total": 20753,
+      "fleet": 5188,
+      "retail": 15565,
+      "fleet_pct": 25,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "MG",
+      "market": "Germany",
+      "total": 18123,
+      "fleet": 3262,
+      "retail": 14861,
+      "fleet_pct": 18,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Lexus",
+      "market": "UK",
+      "total": 17291,
+      "fleet": 9510,
+      "retail": 7781,
+      "fleet_pct": 55,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Lexus",
+      "market": "Germany",
+      "total": 14615,
+      "fleet": 7600,
+      "retail": 7015,
+      "fleet_pct": 52,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "BYD",
+      "market": "UK",
+      "total": 14526,
+      "fleet": 2179,
+      "retail": 12347,
+      "fleet_pct": 15,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "BYD",
+      "market": "Germany",
+      "total": 11764,
+      "fleet": 1412,
+      "retail": 10352,
+      "fleet_pct": 12,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Jaguar",
+      "market": "UK",
+      "total": 11696,
+      "fleet": 7018,
+      "retail": 4678,
+      "fleet_pct": 60,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Porsche",
+      "market": "UK",
+      "total": 9952,
+      "fleet": 4976,
+      "retail": 4976,
+      "fleet_pct": 50,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Fiat",
+      "market": "UK",
+      "total": 7243,
+      "fleet": 2028,
+      "retail": 5215,
+      "fleet_pct": 28,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    },
+    {
+      "brand": "Jaguar",
+      "market": "Germany",
+      "total": 4431,
+      "fleet": 2437,
+      "retail": 1994,
+      "fleet_pct": 55,
+      "note": "Estimated from market data. UK fleet: ~55%, DE fleet: ~40%. Run scraper for exact figures."
+    }
+  ]
+}
